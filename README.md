@@ -33,10 +33,10 @@ Our project leverages state-of-the-art machine learning models, particularly Lon
 
 ## Research Team
 
-- **Leif Huender** - Undergraduate Researcher, Project Lead
-- **Dr. Mary Everett** - Principal Investigator, Epidemiology Expert
-- **Sarah Davis** - PhD Student, Machine Learning Specialist
-- **Dr. John Shovic** - Co-Investigator, Environmental Data Analysis
+- **Leif Huender** - Undergraduate Researcher
+- **Dr. Mary Everett**
+- **Sarah Davis** - PhD Student
+- **Dr. John Shovic** 
 
 Contact: Leif Huender (leifhuenderai@gmail.com)
 
@@ -58,7 +58,7 @@ Our research expands on previous work establishing correlations between temporal
 1. Enhance existing LSTM models for Valley Fever prediction, improving accuracy and lead time
 2. Incorporate new features into our models, including air quality indices and smoke particulate matter data
 3. Expand dataset coverage to include more counties in California and Arizona
-4. Develop and compare various machine learning approaches (e.g., LSTM, GRU, Transformer models)
+4. Develop and compare various machine learning approaches (e.g., LSTM, Transformer, Mamba models)
 5. Investigate the impact of environmental cycles (e.g., El Niño, Pacific Decadal Oscillation) on outbreak patterns
 6. Develop sophisticated risk assessment models using Monte Carlo simulations and Markov chains
 7. Enhance model explainability using techniques like SHAP values and Layer-wise Relevance Propagation
@@ -217,9 +217,6 @@ Due to the sensitive nature of some of our data sources, access to the full data
 A subset of the public environmental data used in this project is available in the `data/public/` directory.
 
 ## Published Research
-
-- Huender, L., Everett, M., Davis, S., & Shovic, J. (2023). "Long-lead Time Prediction of Valley Fever Outbreaks Using LSTM Networks." *Journal of Medical Mycology*, 61(2), 101-115.
-- Davis, S., Huender, L., & Everett, M. (2022). "Environmental Cycles and Their Impact on Coccidioidomycosis Incidence: A Time Series Analysis." *Epidemiology and Infection*, 150, e45.
 
 For a complete list of publications and preprints, please visit our [project website](https://www.harbinger-project.org/publications).
 

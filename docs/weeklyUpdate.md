@@ -9,3 +9,6 @@ September 1 - 7
 - started defining the structure for a long view of what is to come from my research
 - found smoke particulate matter data for california  https://github.com/echolab-stanford/daily-10km-smokePM
 - updated the data base to include air quality, smoke pm, and met data 
+- waiting to look for weather data for arizona until i get response about cm data from arizona
+- weather data to purchase would only be 150 for all of arizona
+- made a data request to arizona department of environmental quality for air quality data
