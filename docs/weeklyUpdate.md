@@ -12,3 +12,8 @@ September 1 - 7
 - waiting to look for weather data for arizona until i get response about cm data from arizona
 - weather data to purchase would only be 150 for all of arizona
 - made a data request to arizona department of environmental quality for air quality data
+- wrote a whitepaper draft for the grant application john suggested
+- started exploring all the data collected trying to get it cleaned and aligned all into one dataset
+- added toxicity data 
+- added the rest of the data sent to me from the AQMIS
+- 
