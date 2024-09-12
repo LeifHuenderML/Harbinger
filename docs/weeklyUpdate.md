@@ -16,4 +16,14 @@ September 1 - 7
 - started exploring all the data collected trying to get it cleaned and aligned all into one dataset
 - added toxicity data 
 - added the rest of the data sent to me from the AQMIS
+
+September 8-14
+- got the link for maricopa county data request https://urldefense.com/v3/__https://phdra.maricopa.gov/__;!!JYXjzlvb!ni8lfOLNdqI4EjEK6G0dxK6UucqskeLLaJE-Hdg9Kbte2Y5LKKhWhukQ85yE9ATvFA0q5kv7Piosw_5YmY9BOBBpF2-Wc3zDU8STAUR3$
+- got the link for adhs data request https://urldefense.com/v3/__https://app.smartsheet.com/b/form/9bbeb6d02c53462598b267705825aabe__;!!JYXjzlvb!ni8lfOLNdqI4EjEK6G0dxK6UucqskeLLaJE-Hdg9Kbte2Y5LKKhWhukQ85yE9ATvFA0q5kv7Piosw_5YmY9BOBBpF2-Wc3zDU0nuR9Gx$
+- emailed Dr alves fosss a request for endorsement
+- made more improvements to the whitepaper
+- made the final edits to the ValleyForecast paper
+- made endorsement requests to 6 people 
 - 
+
+- need to send shovic the edited paper

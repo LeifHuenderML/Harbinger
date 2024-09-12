@@ -1,4 +1,4 @@
-# Harbinger: Advanced Deep Learning for Valley Fever Prediction and Risk Assessment
+# Harbinger and QUARM: Advanced Deep Learning and Qualitative Analysis for Valley Fever Prediction and Risk Assessment
 
 ## Cover Letter
 
@@ -11,40 +11,66 @@ The Harbinger project builds upon our previous work, Valley Forecast, which demo
 Thank you for your consideration.
 
 Sincerely,
-[Your Name]
-[Your Position]
-[Your Institution]
+John Shovic
+Director of the Center for Intelligent Industrial Robotics
+University of Idaho
 
 ## Project Narrative
 
-**Title**: Harbinger: Advanced Deep Learning for Valley Fever Prediction and Risk Assessment
+**Title**: Harbinger and QUARM: Integrating Deep Learning and Qualitative Analysis for Valley Fever Prediction and Risk Assessment
 
-**PI**: [Your Name]
+**PI**: John Shovic
+
 
 **Collaborators**: 
 1. Dr. Mary Everett, Department of Computer Science, University of Idaho
 2. Dr. John Shovic, Department of Computer Science, University of Idaho
+3. Dr. Sarah Davis, Department of Computer Science, University of Idaho
+4. Dr. Leif Huender, Department of Computer Science, University of Idaho
 
-The Harbinger project aims to revolutionize the prediction and risk assessment of Coccidioidomycosis (Valley Fever) outbreaks through the application of cutting-edge deep learning techniques and comprehensive environmental data analysis. Building upon our previous Valley Forecast research, which demonstrated the potential of Long Short-Term Memory (LSTM) networks in predicting Valley Fever incidence, Harbinger seeks to significantly advance our predictive capabilities and develop robust risk assessment tools that can inform public health strategies in endemic regions.
+The Harbinger project, in conjunction with our Qualitative Associative Rule Mining (QUARM) algorithm, aims to revolutionize the prediction and risk assessment of Coccidioidomycosis (Valley Fever) outbreaks. This integrated approach combines cutting edge deep learning techniques with qualitative data analysis to strengthen our understanding and predictive capabilities for Valley Fever incidence.
 
-Our central hypothesis posits that by leveraging more sophisticated deep learning architectures, such as Transformer and Mamba models, and incorporating a broader range of environmental and epidemiological data, we can achieve a step-change improvement in the accuracy of Valley Fever outbreak predictions. This hypothesis is grounded in the success of our previous work and the recent advancements in deep learning that have shown promise in capturing complex, long-term dependencies in time-series data.
+Our central hypothesis is twofold:
+1. By leveraging sophisticated deep learning architectures and incorporating a broad range of environmental and epidemiological data, we can significantly improve the accuracy of Valley Fever outbreak predictions.
+2. Through the application of QUARM, we can uncover novel, qualitative relationships between environmental factors and Valley Fever incidence, complementing and enhancing our quantitative predictions.
 
-The significance of this research cannot be overstated. Valley Fever poses a substantial public health challenge in endemic regions, with increasing incidence rates and a considerable economic burden. Our previous work demonstrated a correlation between temporal microclimatic variations and regional Valley Fever incidences, with the Extended Long Short-Term Memory (xLSTM) model achieving a 49.13% reduction in prediction error compared to baseline methods. Harbinger aims to build upon this foundation, creating more accurate and actionable predictive models that can directly impact public health strategies, resource allocation, and early intervention efforts.
+The significance of this research lies in its potential to address the substantial public health challenge posed by Valley Fever in endemic regions. Our previous work with Valley Forecast demonstrated promising results, and now we aim to create a more comprehensive and nuanced approach by integrating advanced deep learning with qualitative analysis.
 
-Our approach to achieving these goals is multifaceted and interdisciplinary. First, we will significantly expand our data sources, extending geographical coverage to include more counties in California and Arizona, and incorporating additional environmental factors such as soil composition, air quality indices, and human activity patterns. This expanded dataset will provide a more comprehensive view of the complex interactions that influence Valley Fever incidence.
+### Harbinger: Advanced Deep Learning Approach
 
-Second, we will implement and compare advanced deep learning architectures, including Transformer and Mamba models, against our previous LSTM and xLSTM implementations. These newer architectures have shown remarkable performance in various sequence modeling tasks and may offer improved capacity to capture the intricate temporal dependencies in our data. We will also explore ensemble methods to leverage the strengths of multiple model types, potentially leading to more robust predictions.
+Harbinger will build upon our previous success with LSTM models by implementing and comparing advanced architectures such as Transformer and Mamba models. These newer architectures have shown remarkable performance in sequence modeling tasks and may offer improved capacity to capture intricate temporal dependencies in our data.
 
-Third, Harbinger will develop a sophisticated risk assessment framework using Monte Carlo simulations and Markov chain models. This will allow us to quantify prediction uncertainties and develop interpretable risk scores and confidence intervals for different regions and timeframes. Such a tool will be invaluable for public health officials in assessing the likelihood and potential severity of Valley Fever outbreaks.
+Key aspects of the Harbinger approach include:
 
-A key focus of our research will be enhancing model explainability. We will implement advanced techniques such as SHAP (SHapley Additive exPlanations) values and Layer-wise Relevance Propagation to provide insights into the decision-making processes of our models. This will not only improve trust in the model outputs but also contribute to our understanding of the environmental factors most critically influencing Valley Fever incidence.
+1. Expanding data sources to include more counties and additional environmental factors.
+2. Implementing and comparing advanced deep learning architectures.
+3. Developing a sophisticated risk assessment framework using Monte Carlo simulations and Markov chain models.
+4. Enhancing model explainability through techniques like SHAP values and Layer-wise Relevance Propagation.
+5. Addressing overfitting concerns through rigorous cross-validation and sensitivity analyses.
 
-To address the overfitting concerns observed in our previous work, we will implement rigorous cross-validation techniques and conduct extensive sensitivity analyses. These steps will ensure the robustness of our models across various environmental scenarios and data perturbations, leading to more reliable and generalizable predictions.
+### QUARM: Qualitative Associative Rule Mining
 
-Finally, we will apply the Qualitative Associative Rule Mining (QUARM) algorithm, developed by our research group at the University of Idaho, to uncover novel correlations between environmental factors and Valley Fever incidence. This innovative approach has the potential to reveal previously unknown relationships in our complex dataset, further enhancing our predictive capabilities and contributing to the broader understanding of environmental influences on disease dynamics.
+In parallel with Harbinger's quantitative approach, we will apply our innovative QUARM algorithm to uncover qualitative relationships within our dataset. The QUARM variant we will be using, developed by our research group at the University of Idaho, offers a unique perspective on data analysis that complements traditional machine learning techniques.
 
-By integrating these advanced techniques and expanded datasets, the Harbinger project aims to create a comprehensive, accurate, and interpretable system for Valley Fever prediction and risk assessment. This work has the potential to significantly impact public health strategies in endemic regions and provide a framework for addressing other environmentally influenced diseases. Moreover, the interdisciplinary nature of this research, combining expertise in computer science, epidemiology, and environmental science, aligns perfectly with IMCI's mission to foster collaboration across diverse fields in tackling complex biological challenges.
+Key aspects of the QUARM approach include:
 
-![Harbinger Project Overview](https://example.com/harbinger-overview.png)
+1. Identifying qualitative associations between environmental factors and Valley Fever incidence.
+2. Uncovering non-linear and potentially counterintuitive relationships that may be missed by quantitative methods.
+3. Generating human-interpretable rules that can provide insights to domain experts and policymakers.
+4. Exploring temporal and spatial patterns in qualitative associations.
+5. Integrating QUARM findings with Harbinger's deep learning models to create a more comprehensive predictive framework.
 
-*Figure 1: Schematic overview of the Harbinger project, illustrating the integration of expanded data sources, advanced modeling techniques, and risk assessment tools.*
+The QUARM algorithm works by discretizing continuous variables and then searching for significant associations between these discretized variables. It can handle high-dimensional data and is particularly adept at finding complex, multi-variable associations. This makes it ideal for exploring the intricate relationships between various environmental factors and Valley Fever incidence.
+
+### Integration of Harbinger and QUARM
+
+The true power of our approach lies in the integration of Harbinger's deep learning capabilities with QUARM's qualitative insights. This integration will be achieved through several mechanisms:
+
+1. Using QUARM-derived rules to inform feature engineering for Harbinger's deep learning models.
+2. Incorporating QUARM associations as additional inputs or attention mechanisms in our neural network architectures.
+3. Validating and refining Harbinger's predictions using QUARM's qualitative insights.
+4. Developing a hybrid risk assessment framework that combines quantitative predictions with qualitative risk factors.
+
+By combining these approaches, we aim to create a system that not only provides accurate predictions but also offers interpretable insights into the underlying factors influencing Valley Fever incidence. This dual approach has the potential to significantly impact public health strategies in endemic regions and provide a framework for addressing other environmentally influenced diseases.
+
+The interdisciplinary nature of this research, combining expertise in computer science, epidemiology, environmental science, and qualitative data analysis, aligns perfectly with IMCI's mission to foster collaboration across diverse fields in tackling complex biological challenges. Through the synergistic application of Harbinger and QUARM, we believe we can make significant strides in understanding, predicting, and ultimately mitigating the impact of Valley Fever.
