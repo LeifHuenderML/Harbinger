@@ -18,12 +18,22 @@ September 1 - 7
 - added the rest of the data sent to me from the AQMIS
 
 September 8-14
+
 - got the link for maricopa county data request https://urldefense.com/v3/__https://phdra.maricopa.gov/__;!!JYXjzlvb!ni8lfOLNdqI4EjEK6G0dxK6UucqskeLLaJE-Hdg9Kbte2Y5LKKhWhukQ85yE9ATvFA0q5kv7Piosw_5YmY9BOBBpF2-Wc3zDU8STAUR3$
 - got the link for adhs data request https://urldefense.com/v3/__https://app.smartsheet.com/b/form/9bbeb6d02c53462598b267705825aabe__;!!JYXjzlvb!ni8lfOLNdqI4EjEK6G0dxK6UucqskeLLaJE-Hdg9Kbte2Y5LKKhWhukQ85yE9ATvFA0q5kv7Piosw_5YmY9BOBBpF2-Wc3zDU0nuR9Gx$
 - emailed Dr alves fosss a request for endorsement
 - made more improvements to the whitepaper
 - made the final edits to the ValleyForecast paper
 - made endorsement requests to 6 people 
-- 
+- sent john the final draft of the paper
+- sent sarah the cm incidence figure
+- imported all the new data sarah gathered
+- created a CV for the whitepaper and sent it to sarah
+- registered an account with Journal of Biomedical Informatics
+- registered an orcid id
+- created a cover letter for paper submission
+- created a statement of significance
 
-- need to send shovic the edited paper
+- create a graphical abstract
+https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract
+
