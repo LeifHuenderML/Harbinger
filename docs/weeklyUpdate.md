@@ -34,6 +34,7 @@ September 8-14
 - created a cover letter for paper submission
 - created a statement of significance
 
-- create a graphical abstract
+September 15-21
+- created a graphical abstract
 https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract
 
