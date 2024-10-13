@@ -56,5 +56,60 @@ https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstrac
 September 22-28
 - recieved the montly update for counties of cm incidence in california
 - finalized the grants that we should apply to 
-- 
+- created a conda environment and a setup script
+- assembled all the counties in arizona that need to be purchased
+- ordered all the arizona data
+- started writing a script to process all the arizona monthly data
+- read through the email that mary sent me that had more info on the ro3
+- created and sent the email that asks questions to dr soule to mary.
+- continued working on extracting the arizona valley fever data, turned out to be more challenging than first imagined
+- compiled the information and send mary and teryy the eamil with the compiled information "we are trying to understand the grant"
+    - we are tyring to figure out the differenct between ro3 and ro3 attached to a funding opoptuinty
+    - if terry doesnt know to joel knisley
+
+September 29- October 5
+- continued trying to parse the valley fever data from arizona
+- retrieved the arizona meteorological data
+- uplodaed the meteorological data to the cloud
+- met with sarah and mary to discuss the grants further
+- did the presentation over the grants with sarah for john
+- finished verifying that the reworking of the cm data was successful for arizona
+- uploaded the new df to the dropbox
+- sat  in for the meeting with john and leda
+- preprocessed the meteorological data 
+- met with john and sarah to discuss the grants 
+- emailed lacey and kevin the grant that fits their stuff    
+# notes from leda meeting
+    - r21 early career one good for mary and fits with our research two years enough to support a postdoc researcher, due in january
+    - washu has giant medical program and is getting a new updated med database extending to 2024, they are open to collaboration for free just want the accreditaton for collaboration
+    - neihs or naiaid woulld be the two ones that are fittingg for the r21
+    - looking at the smoke pm matter and pm matter and relation to infectous disease, very new field that is why there is not much development yet on it
+    - leda has a good network of people that are willing to look over our porposal - jr thompsan is a very good person to reach out to - with the r21 we would have to identify a mentor collaborator and he might be helpful
+    - sensors for stubble burning to monitor plant disease transmission with the deq
+    - infrastructure type grants, epa,  sbir grants, mackel engineering , for development of sensors funding
+    - dusttracker doesnt saturate at high pm levels, thats what the epa uses
+    - look up for john if there is a big grant for smoke pm and infectous disease and one for remotes sensing with nasa
+
+October 6 - 13:
+- read over all the meeting notes about coccihub
+- relabelled the columns for the arizonda data
+- renamed all the counties for the arizona data
+- removed 'DateTime', 'WeatherMain', 'WeatherIcon', 'TimeZone', 'WeatherID' from the arizona data
+- converted arizona date to datetime
+- created the cleaned dataset data/processed/Arizona_Weather_Data_Hourly_Updates.csv
+- onehot encoded the weather description column
+- created the data/processed/Arizona_Weather_Data_Hourly_Updates_With_One_Hot_Encoding.csv"
+- created data/processed/Arizona_Weather_Data_Daily_Updates_With_One_Hot_Encoding_1979_to_2024.csv"
+- created data/processed/Arizona_Weather_Data_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv"
+- merged the weather data and the cm data so that each sample in the weather data would have that counties monthly case number
+- did a thourough sanity check to ensure that there are no mismaches betwen the merging of the datasets
+- created this new dataset "../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv"
+- shared "../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv" to the dropbox
+- reviewed sarahs codebase to see what she did for converting the cases to rates for california
+
+
+
+
+
+
 
