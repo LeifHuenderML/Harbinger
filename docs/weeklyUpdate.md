@@ -108,6 +108,23 @@ October 6 - 13:
 - reviewed sarahs codebase to see what she did for converting the cases to rates for california
 
 October 14-19
-- 
+- reached out to NIH staff for clarification on the RO3 Grant
+- found the dataset for population estimates of arizona for 1980-2023 https://oeo.az.gov/population/estimates
+- wrote a script to grab all the usefull information from the population estimates and convert it into a usable df
+- went back and added better commenting to the scrips i have worked on
+- emailed sarah that we need to add billing to dropbox teams
+- updated past scripts to not save with index
+- it took a lot of work but i was able to get the rates and population added to the dataset, wrote the code for it in combine_arizona_cmet_and_rates.py
+- created a new dataset called "../../data/processed/Arizona_Combined_Dataset_1994_to_2023.csv"
+- meeting notes
+    -we will be presenting the whole idea of comorbitidies, we will prestend to the nih and will like their funding too, put an aspect on how this will hepl with functional medicine,
+    - dr malones is a concierge physiscian, he had an idea to take all his ptients biometric readings, he is very interested in data driven medicine
+    - we are doing data driven scientific discovery
+    - time limit 2 - 3 slides 
+    - she is goint into correlations and explainability and i will go into the predictive model
+    - meeting at 12:30 on monday 
+- got enrolled in the citi program for irb investogators and student researchers
 
 
+- complete slides by monday
+- complete training

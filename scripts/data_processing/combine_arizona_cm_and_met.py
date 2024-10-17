@@ -109,4 +109,4 @@ months = list(range(1, 13))
 
 mismatch_count, mismatches = compare_all_cases(met_df, cm_df, counties, years, months)
 
-met_df.to_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv")
+met_df.to_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv", index=False)
