@@ -107,9 +107,7 @@ October 6 - 13:
 - shared "../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv" to the dropbox
 - reviewed sarahs codebase to see what she did for converting the cases to rates for california
 
-
-
-
-
+October 14-19
+- 
 
 
