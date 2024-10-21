@@ -124,7 +124,10 @@ October 14-19
     - she is goint into correlations and explainability and i will go into the predictive model
     - meeting at 12:30 on monday 
 - got enrolled in the citi program for irb investogators and student researchers
+- sent kristopher waynant the posters from last summers research
+- sent kristopher waynant the papers from last summers research
+- sent kristopher waynant the links from last summers research
+- sent kristopher waynant a write up about the experiience from last summers research 
+- took the b2b survey
+- updated my cv as kristhopher waynant asked
 
-
-- complete slides by monday
-- complete training
