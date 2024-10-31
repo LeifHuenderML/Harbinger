@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #load dataframes
-df = pd.read_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv")
+df = pd.read_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_1994_to_2023.csv")
 df2 = pd.read_csv("../../data/processed/arizona_pop_est_1980-2023.csv")
 #make an empty row for the rates and population
 new_row = pd.DataFrame({col: [np.nan] for col in df.columns}, index=[0])

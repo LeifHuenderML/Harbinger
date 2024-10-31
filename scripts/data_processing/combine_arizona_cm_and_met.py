@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-met_df = pd.read_csv("../../data/processed/Arizona_Weather_Data_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv")
+met_df = pd.read_csv("../../data/processed/Arizona_Weather_Data_Daily_Updates_1994_to_2023.csv")
 cm_df = pd.read_csv('../../data/processed/arizona_cm_combined_data.csv')
 
 #remove trailing whitespace from columns
@@ -27,13 +27,13 @@ cm_df = cm_df.rename(columns={
     'DateTimeISO': 'Date'
 })
 
-#remove trailing whitespaces
-for col in ['Apache', 'Greenlee', 'Santa_Cruz']:
-    cm_df[col] = cm_df[col].str.strip()
+# #remove trailing whitespaces
+# for col in ['Apache', 'Greenlee', 'Santa_Cruz']:
+#     cm_df[col] = cm_df[col].str.strip()
 
-#change missing values to nan values for pandas
-for col in ['Apache', 'Greenlee', 'Santa_Cruz']:
-    cm_df[col] = pd.to_numeric(cm_df[col].replace('', np.nan), errors='coerce')
+# #change missing values to nan values for pandas
+# for col in ['Apache', 'Greenlee', 'Santa_Cruz']:
+#     cm_df[col] = pd.to_numeric(cm_df[col].replace('', np.nan), errors='coerce')
 
 #created for easy parsing
 met_df['Year'] = pd.to_datetime(met_df['Date']).dt.year
@@ -73,18 +73,18 @@ def compare_all_cases(met_df, cm_df, counties, years, months):
                             'cm_df_cases': cm_cases
                         })
     
-    print(f"\nTotal mismatches found: {len(mismatches)}")
-    if mismatches:
-        print("\nMismatches:")
-        for mismatch in mismatches:
-            print(f"  {mismatch['County']} ({mismatch['Year']}-{mismatch['Month']:02d}): "
-                  f"met_df: {mismatch['met_df_cases']}, cm_df: {mismatch['cm_df_cases']}")
+    # print(f"\nTotal mismatches found: {len(mismatches)}")
+    # if mismatches:
+    #     print("\nMismatches:")
+    #     for mismatch in mismatches:
+    #         print(f"  {mismatch['County']} ({mismatch['Year']}-{mismatch['Month']:02d}): "
+    #               f"met_df: {mismatch['met_df_cases']}, cm_df: {mismatch['cm_df_cases']}")
     
     return len(mismatches), mismatches
 
 def compare_cases(met_df, cm_df, county, year, month):
     met_sample = met_df[(met_df['County'] == county) & (met_df['Year'] == year) & (met_df['Month'] == month)]
-    cm_sample = cm_df[(cm_df['Year'] == year) & (cm_df['Month'] == month)]
+    cm_sample = cm_df[(cm_df['Year'] == year) & (cm_df['Month'] == month)] 
     
     if met_sample.empty or cm_sample.empty:
         return None
@@ -109,4 +109,4 @@ months = list(range(1, 13))
 
 mismatch_count, mismatches = compare_all_cases(met_df, cm_df, counties, years, months)
 
-met_df.to_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_With_One_Hot_Encoding_1994_to_2023.csv", index=False)
+met_df.to_csv("../../data/processed/Arizona_Combined_Weather_Data_And_Case_Number_Daily_Updates_1994_to_2023.csv", index=False)
