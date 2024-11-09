@@ -33,4 +33,12 @@ echo "Starting reformat_cali_pop_estimates.py..."
 python3 reformat_cali_pop_estimates.py
 echo "Completed reformat_cali_pop_estimates.py"
 
+echo "Starting combine_cali_cm_and_met.py..."
+python3 combine_cali_cm_and_met.py
+echo "Completed combine_cali_cm_and_met.py"
+
+echo "Starting combine_cali_cmmet_and_cases.py..."
+python3 combine_cali_cmmet_and_cases.py
+echo "Completed combine_cali_cmmet_and_cases.py"
+
 echo "All scripts completed!"

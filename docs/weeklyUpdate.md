@@ -131,3 +131,45 @@ October 14-19
 - took the b2b survey
 - updated my cv as kristhopher waynant asked
 
+October 20-26
+- reformated the cali cm dataset so that it is in the same format we need
+- wrote the script to reformat the california meteorological dataset
+- rewrote the script to reformat the arizona meteorological datastet to be more like the california one, i like the way that pandas does it more
+- met with sarah and went over the presentation
+- wrote a build dataset script that runs all the python scripts to build out the complete dataset with checkpointing
+- dropped the weather description from the datasets
+- rewrote all the build scripts to phase out polars in favor of pandas
+- worked on the pesticides but then realized that the data was yearly not monthy
+- went through the california population estimates dataset and wrote a script converting them all to the correct format
+
+October 27 - November 2
+- was missing some california porulation estimate data so i had to go through and had to go through and reformat the new data
+- worked on the slides for the persentation with milonas
+- met with sarah to go over the presentation and practice
+- met with sarah john and milonas and presented on the harbinger project
+- combined the population estimates with the rest of the california data
+- read through th edescription of the imci grant again
+- put together a list of priorities that we want to expand on for my part and wrtie about 1 page on top of that
+- got the most recent draft of the paper
+- started rewriting the imci grant proposal
+
+November 3 - 9
+- continued rewriting the imci grant
+- added the rates to the case data
+- combined the met data with the rest of the california data
+- started preprocessing the air quality data
+- went through and made more edits to the imci grant
+- came up with a list of names that might be more fitting for our model
+- went through the pesticides dataset and there are over 1200 unique pesticides, including the valuues of measurements made it would expand our dataset by almost 4000 columns
+- should we only include relevant ones that have been studied, i can make multiple final datasets with one that includes it and one that doesnt too
+- wrote the transcript for the research gate video
+- wrote up a complimentary document for the research gate video
+
+
+- did the full training for the irb investigators and student researchers
+- did the fulll trining for the export controls  for studnents
+
+todo 
+- run a correlation matrix onf the pesticide
+
+

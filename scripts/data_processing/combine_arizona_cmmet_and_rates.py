@@ -25,5 +25,5 @@ for index, row in df.iterrows():
         df.at[index, 'Population'] = matching_row[year].iloc[0]
     else:
         print(f"No population data found for {county} in {year}")
-df['Rates'] = df['Cases'] / df['Population']
+df['Rates'] = (df['Cases'] / df['Population']) * 100000
 df.to_csv("../../data/processed/Arizona_Combined_Dataset_1994_to_2023.csv", index=False)

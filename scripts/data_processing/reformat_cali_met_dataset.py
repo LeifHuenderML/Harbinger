@@ -69,5 +69,5 @@ df.to_csv(output_path, index=False)
 df['Date'] = pd.to_datetime(df['Date'])
 df = df[(df['Date'] >= pd.to_datetime('2001-01-01')) & 
         (df['Date'] <= pd.to_datetime('2022-12-31'))]
-output_path = "../../data/processed/California_Weather_Data_Daily_Updates_1994_to_2023.csv"
+output_path = "../../data/processed/California_Weather_Data_Daily_Updates_2001_to_2022.csv"
 df.to_csv(output_path, index=False)

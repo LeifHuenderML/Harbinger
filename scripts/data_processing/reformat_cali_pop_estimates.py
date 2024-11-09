@@ -92,4 +92,4 @@ df = df.reset_index(drop=True)
 
 df['date'] = pd.to_datetime(df['Year'].astype(str) + '-' + df['Month'].astype(str) + '-01')
 
-df.to_csv("../../data/processed/California_Population_2000-2023", index=False)
+df.to_csv("../../data/processed/California_Population_2000-2023.csv", index=False)
