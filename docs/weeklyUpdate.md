@@ -166,10 +166,179 @@ November 3 - 9
 - wrote up a complimentary document for the research gate video
 
 
-- did the full training for the irb investigators and student researchers
-- did the fulll trining for the export controls  for studnents
+November 10-23
+- updated the data prep script for valley forecast to make it so that the data is split by years
+- created 2 new datasets one where there it no training augmentation train2 and one where there is but the years ares split accordingly train3
+- retrained the models
+- went through the entire paper and changed everything to the naming convention they wanted
+- added a section in future research directions to discuss Investigating CM underdiagnosis patterns through integration of demographic and health data, particularly focusing on vulnerable populations (e.g., AIDS and cancer patients) who typically present more severe symptoms. This analysis could help quantify reporting bias and develop correction factors for incidence predictions in underserved communities, ultimately improving model accuracy across diverse populations
+- Removed "[cite Beck and another paper that uses blocking for llms]" on page 8 paragraph 4. 
+- addressed this concern 
+    2. The validation RMSE is notably lower than the test RMSE, raising questions about the proposed model's true performance.
+     Additional discussion and analysis on this discrepancy would strengthen the evaluation.
+    The concern about the discrepancy between validation and test RMSE has been addressed through two additions to the paper:
+    1.	A comprehensive analysis of the validation-test performance gap was added to Section 4.1 (Model Performance Metrics), paragraph 4, page 12:
+    "It's worth noting that while the xLSTM performed best on both validation and test sets, there's a significant 
+    difference between its validation RMSE (68.33) and test RMSE (273.78). This large gap, common across all models 
+    but particularly pronounced in the more complex architectures, can be attributed to several factors. First, the 
+    temporal nature of the data means weather patterns and cocci incidence relationships may evolve over time, 
+    making generalization challenging. Second, the test set may contain more extreme or unusual cases than the 
+    validation set. Third, despite our regularization efforts, the models' capacity to memorize training patterns 
+    may be leading to overfitting. The simpler MLP model shows more consistent performance between validation 
+    and test sets, which could indicate better generalization despite not achieving the lowest validation RMSE, suggesting that model complexity plays a significant role in the size of this performance gap."
+    2.	The future research directions in Section 5 were improved with a more detailed point addressing
+     validation frameworks (item 8, page 14):
+    "8. Implementing sophisticated validation frameworks, including temporal-aware cross-validation techniques, 
+    ensemble methods combining complementary architectures, and enhanced regularization approaches to address 
+    the observed validation-test performance gap and improve model generalization."
+- note for the timeline of the new dataset 
+    Loading ../../data/original/rates.xlsx
+    Loaded ../../data/original/rates.xlsx
+    Loading weather.csv
+    Loaded weather.csv
+    Merged DF shape: (385680, 25)
+    X tensor shape: torch.Size([1056, 365, 19]), Y tensor shape: torch.Size([1056])
+    Split years - Train: ≤2017, Val: 2018-2020, Test: ≥2021
+    Train Shapes: (torch.Size([17136, 365, 19]), torch.Size([17136])), 
+    Validation Shapes: (torch.Size([144, 365, 19]), torch.Size([144])), 
+    Test Shapes: (torch.Size([96, 365, 19]), torch.Size([96]))
+    Train Size: 17136, Val Size: 144, Test Size: 96
+    Train, val, and test datasets saved
+    avg df shape (1056, 20)
+- note for the performance of the models being trained
+    (harbinger) intellect@intellect:~/Documents/Research/ValleyForecast/src/analysis$ python3 create_cross_model_predictions_v2.py
+    training baseline
+    RMSE: 422.11840785714605
+    Training Time: 0.00025081634521484375
+    finished training baseline
+    training mlp
+    torch.Size([844, 6935])
+    finished training mlp
+    training lstm
+    Epoch: 1/50
+    ---------
+    Train Loss RMSE: 335.5723623849774, Validation Loss RMSE: 77.30672882916224
+    Epoch: 2/50
+    ---------
+    Train Loss RMSE: 330.2244171787713, Validation Loss RMSE: 74.6672844634156
+    Epoch: 3/50
+    ---------
+    Train Loss RMSE: 323.09477466715174, Validation Loss RMSE: 98.05405725685831
+    Epoch: 4/50
+    ---------
+    Train Loss RMSE: 316.60329904052065, Validation Loss RMSE: 90.40813086748959
+    Epoch: 5/50
+    ---------
+    Train Loss RMSE: 323.46599872123494, Validation Loss RMSE: 90.61068111556474
+    Epoch: 6/50
+    ---------
+    Train Loss RMSE: 323.268162396114, Validation Loss RMSE: 87.12624766525046
+    Epoch: 7/50
+    ---------
+    Train Loss RMSE: 323.2447760542995, Validation Loss RMSE: 99.92497429712579
+    Epoch: 8/50
+    ---------
+    Train Loss RMSE: 316.78972165403826, Validation Loss RMSE: 90.7342774614165
+    Epoch: 9/50
+    ---------
+    Train Loss RMSE: 323.26175685156204, Validation Loss RMSE: 85.11018249341555
+    Epoch: 10/50
+    ---------
+    Train Loss RMSE: 323.3218051566482, Validation Loss RMSE: 97.00581326712945
+    Epoch: 11/50
+    ---------
+    Train Loss RMSE: 322.3301345399031, Validation Loss RMSE: 89.50680635453966
+    Epoch: 12/50
+    ---------
+    Train Loss RMSE: 323.22585562535306, Validation Loss RMSE: 87.36133404170792
+    Epoch: 13/50
+    ---------
+    Train Loss RMSE: 323.07888764507214, Validation Loss RMSE: 90.87569648654178
+    Epoch: 14/50
+    ---------
+    Train Loss RMSE: 323.1213490508479, Validation Loss RMSE: 92.01606676536848
+    finished training lstm
+    training xlstm
+    Epoch 1 Train RMSE Loss: 335.6777, Val RMSE Loss: 83.5544
+    Epoch 2 Train RMSE Loss: 335.7345, Val RMSE Loss: 81.3989
+    Epoch 3 Train RMSE Loss: 334.7183, Val RMSE Loss: 81.7679
+    Epoch 4 Train RMSE Loss: 332.1388, Val RMSE Loss: 79.9122
+    Epoch 5 Train RMSE Loss: 328.1723, Val RMSE Loss: 71.1586
+    Epoch 6 Train RMSE Loss: 324.8171, Val RMSE Loss: 87.3750
+    Epoch 7 Train RMSE Loss: 323.4828, Val RMSE Loss: 90.9164
+    Epoch 8 Train RMSE Loss: 322.7312, Val RMSE Loss: 91.9510
+    Epoch 9 Train RMSE Loss: 323.3852, Val RMSE Loss: 85.8020
+    Epoch 10 Train RMSE Loss: 322.8997, Val RMSE Loss: 93.2280
+    finished training xlstm
+    running xlstm evaluations
+    finished xlstm evaluations
+
+    Outer Fold: 1/5
+    Evaluating baseline
+    baseline RMSE: 533.9215
+    Evaluating mlp
+    mlp RMSE: 412.5679
+    Evaluating lstm
+    lstm RMSE: 401.9865
+    Evaluating xlstm
+    xlstm RMSE: 401.1520
+
+    Outer Fold: 2/5
+    Evaluating baseline
+    baseline RMSE: 419.6630
+    Evaluating mlp
+    mlp RMSE: 143.0950
+    Evaluating lstm
+    lstm RMSE: 140.6543
+    Evaluating xlstm
+    xlstm RMSE: 141.9972
+
+    Outer Fold: 3/5
+    Evaluating baseline
+    baseline RMSE: 459.5896
+    Evaluating mlp
+    mlp RMSE: 288.2575
+    Evaluating lstm
+    lstm RMSE: 277.5649
+    Evaluating xlstm
+    xlstm RMSE: 277.3120
+
+    Outer Fold: 4/5
+    Evaluating baseline
+    baseline RMSE: 479.3414
+    Evaluating mlp
+    mlp RMSE: 357.9233
+    Evaluating lstm
+    lstm RMSE: 341.8964
+    Evaluating xlstm
+    xlstm RMSE: 341.4152
+
+    Outer Fold: 5/5
+    Evaluating baseline
+    baseline RMSE: 450.0500
+    Evaluating mlp
+    mlp RMSE: 264.2976
+    Evaluating lstm
+    lstm RMSE: 254.3546
+    Evaluating xlstm
+    xlstm RMSE: 254.2281
+
+    Final Cross-Validation Results:
+    ================================
+    BASELINE:
+    RMSE: 468.5131 (±37.9535)
+    MLP:
+    RMSE: 293.2283 (±91.4648)
+    LSTM:
+    RMSE: 283.2913 (±88.0211)
+    XLSTM:
+    RMSE: 283.2209 (±87.3086)
+
+
 
 todo 
 - run a correlation matrix onf the pesticide
+- did the full training for the irb investigators and student researchers
+- did the fulll trining for the export controls  for studnents
 
 
