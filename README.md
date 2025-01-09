@@ -1,4 +1,4 @@
-# Harbinger: Deep Learning-Powered Valley Fever Prediction and Risk Assessment
+# Harbinger: Deep Learning-Powered cocci Prediction and Risk Assessment
 
 ![Harbinger Logo](harbinger-logo.jpg)
 
@@ -6,7 +6,7 @@
 - [Project Overview](#project-overview)
 - [Quick Links](#quick-links)
 - [Research Team](#research-team)
-- [Introduction to Valley Fever](#introduction-to-valley-fever)
+- [Introduction to cocci](#introduction-to-valley-fever)
 - [Project Objectives](#project-objectives)
 - [Methodology](#methodology)
 - [Current Research Focus](#current-research-focus)
@@ -20,9 +20,9 @@
 
 ## Project Overview
 
-Harbinger is a cutting-edge research initiative aimed at forecasting Coccidioidomycosis (Valley Fever) outbreaks using advanced deep learning techniques. The name "Harbinger" reflects our goal of signaling the approach of potential outbreaks, enabling proactive public health responses.
+Harbinger is a cutting-edge research initiative aimed at forecasting Coccidioidomycosis (cocci) outbreaks using advanced deep learning techniques. The name "Harbinger" reflects our goal of signaling the approach of potential outbreaks, enabling proactive public health responses.
 
-Our project leverages state-of-the-art machine learning models, particularly Long Short-Term Memory (LSTM) networks, to analyze complex environmental and meteorological data patterns associated with Valley Fever outbreaks. By incorporating diverse data sources and employing sophisticated analytical techniques, Harbinger aims to provide accurate, long-lead time predictions and comprehensive risk assessments.
+Our project leverages state-of-the-art machine learning models, particularly Long Short-Term Memory (LSTM) networks, to analyze complex environmental and meteorological data patterns associated with cocci outbreaks. By incorporating diverse data sources and employing sophisticated analytical techniques, Harbinger aims to provide accurate, long-lead time predictions and comprehensive risk assessments.
 
 ## Quick Links
 
@@ -40,22 +40,22 @@ Our project leverages state-of-the-art machine learning models, particularly Lon
 
 Contact: Leif Huender (leifhuenderai@gmail.com)
 
-## Introduction to Valley Fever
+## Introduction to Cocci
 
-Valley Fever is a fungal respiratory infection caused by Coccidioides species, endemic to semi-arid regions of the southwestern United States and parts of Mexico. The disease is contracted by inhaling fungal spores present in soil and can lead to severe respiratory issues, especially in vulnerable populations.
+Coccidioidomycosis is a fungal respiratory infection caused by Coccidioides species, endemic to semi-arid regions of the southwestern United States and parts of Mexico. The disease is contracted by inhaling fungal spores present in soil and can lead to severe respiratory issues, especially in vulnerable populations.
 
-Our research expands on previous work establishing correlations between temporal meteorological patterns and outbreak occurrences. We employ advanced LSTM models to capture complex, long-term dependencies in environmental data, aiming to predict outbreaks with significant lead time.
+Our research expands on previous work establishing correlations between temporal meteorological patterns and outbreak occurrences. We use advanced LSTM models to capture complex, long-term dependencies in environmental data, aiming to predict outbreaks with significant lead time.
 
 ### Key Focus Areas:
 
 - Leveraging deep learning for long-lead time predictions (up to 12 months in advance)
 - Comprehensive risk assessment with significant lead time
 - Enabling proactive public health measures through early warning systems
-- Investigating the impact of climate change on Valley Fever incidence patterns
+- Investigating the impact of climate change on cocci incidence patterns
 
 ## Project Objectives
 
-1. Enhance existing LSTM models for Valley Fever prediction, improving accuracy and lead time
+1. Improve existing LSTM models for cocci prediction, improving accuracy and lead time
 2. Incorporate new features into our models, including air quality indices and smoke particulate matter data
 3. Expand dataset coverage to include more counties in California and Arizona
 4. Develop and compare various machine learning approaches (e.g., LSTM, Transformer, Mamba models)
@@ -72,14 +72,14 @@ Our research expands on previous work establishing correlations between temporal
   - Soil moisture and composition data
   - Air quality indices
   - Smoke particulate matter concentrations
-  - Historical Valley Fever case data
+  - Historical cocci case data
 - Data preprocessing and quality assurance procedures
 - See `data/README.md` for detailed information on data sources and processing
 
 ### 2. Exploratory Data Analysis
 
 - Temporal and spatial pattern discovery in environmental and outbreak data
-- Correlation analysis between environmental factors and Valley Fever incidence
+- Correlation analysis between environmental factors and cocci incidence
 - Feature importance ranking using statistical and machine learning techniques
 - Visualization of key relationships and trends
 
@@ -121,7 +121,7 @@ Our research expands on previous work establishing correlations between temporal
 
 1. Refinement of long-lead time prediction models, aiming for accurate 12-month forecasts
 2. Development of a sophisticated risk assessment tool integrating multiple modeling approaches
-3. In-depth analysis of environmental cycles and their correlation with Valley Fever incidence
+3. In-depth analysis of environmental cycles and their correlation with cocci incidence
 4. Enhancement of model explainability to provide actionable insights for public health officials
 
 ## Future Directions
@@ -129,7 +129,7 @@ Our research expands on previous work establishing correlations between temporal
 - Integration of high-resolution satellite imagery for improved environmental monitoring
 - Exploration of collaborative filtering techniques for identifying outbreak patterns across regions
 - Development of a real-time risk assessment dashboard for public health stakeholders
-- Investigation of potential climate change impacts on future Valley Fever distribution and incidence
+- Investigation of potential climate change impacts on future cocci distribution and incidence
 
 ## Repository Structure
 

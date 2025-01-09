@@ -191,152 +191,330 @@ November 10-23
     "8. Implementing sophisticated validation frameworks, including temporal-aware cross-validation techniques, 
     ensemble methods combining complementary architectures, and enhanced regularization approaches to address 
     the observed validation-test performance gap and improve model generalization."
-- note for the timeline of the new dataset 
-    Loading ../../data/original/rates.xlsx
-    Loaded ../../data/original/rates.xlsx
-    Loading weather.csv
-    Loaded weather.csv
-    Merged DF shape: (385680, 25)
-    X tensor shape: torch.Size([1056, 365, 19]), Y tensor shape: torch.Size([1056])
-    Split years - Train: ≤2017, Val: 2018-2020, Test: ≥2021
-    Train Shapes: (torch.Size([17136, 365, 19]), torch.Size([17136])), 
-    Validation Shapes: (torch.Size([144, 365, 19]), torch.Size([144])), 
-    Test Shapes: (torch.Size([96, 365, 19]), torch.Size([96]))
-    Train Size: 17136, Val Size: 144, Test Size: 96
-    Train, val, and test datasets saved
-    avg df shape (1056, 20)
-- note for the performance of the models being trained
-    (harbinger) intellect@intellect:~/Documents/Research/ValleyForecast/src/analysis$ python3 create_cross_model_predictions_v2.py
-    training baseline
-    RMSE: 422.11840785714605
-    Training Time: 0.00025081634521484375
-    finished training baseline
-    training mlp
-    torch.Size([844, 6935])
-    finished training mlp
-    training lstm
-    Epoch: 1/50
-    ---------
-    Train Loss RMSE: 335.5723623849774, Validation Loss RMSE: 77.30672882916224
-    Epoch: 2/50
-    ---------
-    Train Loss RMSE: 330.2244171787713, Validation Loss RMSE: 74.6672844634156
-    Epoch: 3/50
-    ---------
-    Train Loss RMSE: 323.09477466715174, Validation Loss RMSE: 98.05405725685831
-    Epoch: 4/50
-    ---------
-    Train Loss RMSE: 316.60329904052065, Validation Loss RMSE: 90.40813086748959
-    Epoch: 5/50
-    ---------
-    Train Loss RMSE: 323.46599872123494, Validation Loss RMSE: 90.61068111556474
-    Epoch: 6/50
-    ---------
-    Train Loss RMSE: 323.268162396114, Validation Loss RMSE: 87.12624766525046
-    Epoch: 7/50
-    ---------
-    Train Loss RMSE: 323.2447760542995, Validation Loss RMSE: 99.92497429712579
-    Epoch: 8/50
-    ---------
-    Train Loss RMSE: 316.78972165403826, Validation Loss RMSE: 90.7342774614165
-    Epoch: 9/50
-    ---------
-    Train Loss RMSE: 323.26175685156204, Validation Loss RMSE: 85.11018249341555
-    Epoch: 10/50
-    ---------
-    Train Loss RMSE: 323.3218051566482, Validation Loss RMSE: 97.00581326712945
-    Epoch: 11/50
-    ---------
-    Train Loss RMSE: 322.3301345399031, Validation Loss RMSE: 89.50680635453966
-    Epoch: 12/50
-    ---------
-    Train Loss RMSE: 323.22585562535306, Validation Loss RMSE: 87.36133404170792
-    Epoch: 13/50
-    ---------
-    Train Loss RMSE: 323.07888764507214, Validation Loss RMSE: 90.87569648654178
-    Epoch: 14/50
-    ---------
-    Train Loss RMSE: 323.1213490508479, Validation Loss RMSE: 92.01606676536848
-    finished training lstm
-    training xlstm
-    Epoch 1 Train RMSE Loss: 335.6777, Val RMSE Loss: 83.5544
-    Epoch 2 Train RMSE Loss: 335.7345, Val RMSE Loss: 81.3989
-    Epoch 3 Train RMSE Loss: 334.7183, Val RMSE Loss: 81.7679
-    Epoch 4 Train RMSE Loss: 332.1388, Val RMSE Loss: 79.9122
-    Epoch 5 Train RMSE Loss: 328.1723, Val RMSE Loss: 71.1586
-    Epoch 6 Train RMSE Loss: 324.8171, Val RMSE Loss: 87.3750
-    Epoch 7 Train RMSE Loss: 323.4828, Val RMSE Loss: 90.9164
-    Epoch 8 Train RMSE Loss: 322.7312, Val RMSE Loss: 91.9510
-    Epoch 9 Train RMSE Loss: 323.3852, Val RMSE Loss: 85.8020
-    Epoch 10 Train RMSE Loss: 322.8997, Val RMSE Loss: 93.2280
-    finished training xlstm
-    running xlstm evaluations
-    finished xlstm evaluations
+- finished the paper and resubmit for publication
 
-    Outer Fold: 1/5
-    Evaluating baseline
-    baseline RMSE: 533.9215
-    Evaluating mlp
-    mlp RMSE: 412.5679
-    Evaluating lstm
-    lstm RMSE: 401.9865
-    Evaluating xlstm
-    xlstm RMSE: 401.1520
+December 8 - January 8
+- updated readme to be more accurate with the projects current status
+- created a readme file in dataprocessing so that there is more information on what all the build scripts are doing
+- updated the reformat_arizona_met_dataset.py to no longer save multiple output files. it didnt make any sense because we only really need the years that match the output data and i was saving  versions with years beyond the output data. 
+- added a lot of documentation to the data processing page
+- recieved the changes that needed to be made to the paper
+- went through and made all the subsequent edits
+- updated the manuscript upload
+- updated the marked manuscript upload
+- updated the response to reviews
+- added more documentation to the data preprocessing
+- ended up removing 4 scripts that were being used to preprocess data that ended up not being very helpful
+- had an idea to try and find the top correlative chemical usages spent some time working on it got these results
 
-    Outer Fold: 2/5
-    Evaluating baseline
-    baseline RMSE: 419.6630
-    Evaluating mlp
-    mlp RMSE: 143.0950
-    Evaluating lstm
-    lstm RMSE: 140.6543
-    Evaluating xlstm
-    xlstm RMSE: 141.9972
 
-    Outer Fold: 3/5
-    Evaluating baseline
-    baseline RMSE: 459.5896
-    Evaluating mlp
-    mlp RMSE: 288.2575
-    Evaluating lstm
-    lstm RMSE: 277.5649
-    Evaluating xlstm
-    xlstm RMSE: 277.3120
+    Top 10 Counties with Highest Total Coccidioidomycosis Cases:
+County
+Kern               39238.0
+Los Angeles        11560.0
+Fresno              9331.0
+Tulare              4393.0
+San Diego           3853.0
+San Luis Obispo     3156.0
+Orange              2540.0
+Riverside           2495.0
+Ventura             2310.0
+Kings               2151.0
+Name: Cases, dtype: float64
 
-    Outer Fold: 4/5
-    Evaluating baseline
-    baseline RMSE: 479.3414
-    Evaluating mlp
-    mlp RMSE: 357.9233
-    Evaluating lstm
-    lstm RMSE: 341.8964
-    Evaluating xlstm
-    xlstm RMSE: 341.4152
+Top pesticides with highest relative usage in KERN County:
+Relative usage ratio:
+Chemname
+SULFURIC ACID                                                               75385.589509
+DAZOMET, SODIUM SALT                                                         4075.368770
+RONNEL                                                                       1378.840411
+ALKYL* DIMETHYL BENZYL AMMONIUM CHLORIDE *(67%C12, 25%C14, 7%C16, 1%C18)      816.715449
+METALAXYL                                                                     208.390306
+NAA, ETHYL ESTER                                                               83.800904
+CHLORDANE                                                                      77.191524
+ALKYL PYRIDINES, MIXED                                                         76.923077
+HARPIN PROTEIN                                                                 75.268937
+TOXAPHENE                                                                      63.677564
+dtype: float64
 
-    Outer Fold: 5/5
-    Evaluating baseline
-    baseline RMSE: 450.0500
-    Evaluating mlp
-    mlp RMSE: 264.2976
-    Evaluating lstm
-    lstm RMSE: 254.3546
-    Evaluating xlstm
-    xlstm RMSE: 254.2281
+Actual pounds used:
+Chemname
+SULFURIC ACID                                                                  7977.62
+DAZOMET, SODIUM SALT                                                            516.83
+RONNEL                                                                           17.20
+ALKYL* DIMETHYL BENZYL AMMONIUM CHLORIDE *(67%C12, 25%C14, 7%C16, 1%C18)    1319468.08
+METALAXYL                                                                    112256.09
+NAA, ETHYL ESTER                                                              41529.16
+CHLORDANE                                                                       232.43
+ALKYL PYRIDINES, MIXED                                                            7.50
+HARPIN PROTEIN                                                                 4245.45
+TOXAPHENE                                                                      1136.19
+Name: KERN, dtype: float64
 
-    Final Cross-Validation Results:
-    ================================
-    BASELINE:
-    RMSE: 468.5131 (±37.9535)
-    MLP:
-    RMSE: 293.2283 (±91.4648)
-    LSTM:
-    RMSE: 283.2913 (±88.0211)
-    XLSTM:
-    RMSE: 283.2209 (±87.3086)
+Top pesticides with highest relative usage in LOS ANGELES County:
+Relative usage ratio:
+Chemname
+ALKYL (95%C14, 3%C12, 2%C16) DIMETHYL BENZYL AMMONIUM CHLORIDE    5405.063342
+DEET, OTHER RELATED                                                241.783734
+DEET                                                               209.378533
+OIL OF CEDARWOOD                                                   180.301746
+LACTIC ACID                                                        117.087176
+HEXAFLUMURON                                                       101.037423
+DICHLOBENIL                                                        100.248313
+BROMACIL, LITHIUM SALT                                              60.235178
+N-OCTYL BICYCLOHEPTENE DICARBOXIMIDE                                47.911601
+NICARBAZIN                                                          40.823989
+dtype: float64
 
+Actual pounds used:
+Chemname
+ALKYL (95%C14, 3%C12, 2%C16) DIMETHYL BENZYL AMMONIUM CHLORIDE      1026.96
+DEET, OTHER RELATED                                                  106.75
+DEET                                                                2028.34
+OIL OF CEDARWOOD                                                       0.34
+LACTIC ACID                                                           21.73
+HEXAFLUMURON                                                          96.98
+DICHLOBENIL                                                       828288.91
+BROMACIL, LITHIUM SALT                                             35455.65
+N-OCTYL BICYCLOHEPTENE DICARBOXIMIDE                               67291.79
+NICARBAZIN                                                           126.53
+Name: LOS ANGELES, dtype: float64
+
+Top pesticides with highest relative usage in FRESNO County:
+Relative usage ratio:
+Chemname
+SODIUM ARSENITE                                                       11543.817644
+DISODIUM CYANODITHIOIMIDO CARBONATE                                    5910.454529
+SODIUM DODECYLBENZENESULFONATE                                          567.968256
+ALKYL* DIMETHYL BENZYL AMMONIUM CHLORIDE *(58%C14, 28%C16, 14%C12)      206.797658
+TRICHLORFON                                                             106.199495
+ORTHO-PHENYLPHENOL                                                       68.129406
+PARA-TERT-AMYLPHENOL                                                     66.733927
+DICHLORPROP BUTOXYETHANOL ESTER                                          53.712328
+ENDOSULFAN                                                               45.988046
+ORTHO-BENZYL-PARA-CHLOROPHENOL                                           38.887288
+dtype: float64
+
+Actual pounds used:
+Chemname
+SODIUM ARSENITE                                                          220.50
+DISODIUM CYANODITHIOIMIDO CARBONATE                                      460.74
+SODIUM DODECYLBENZENESULFONATE                                            11.76
+ALKYL* DIMETHYL BENZYL AMMONIUM CHLORIDE *(58%C14, 28%C16, 14%C12)      2094.65
+TRICHLORFON                                                             7730.98
+ORTHO-PHENYLPHENOL                                                     56165.74
+PARA-TERT-AMYLPHENOL                                                   19600.19
+DICHLORPROP BUTOXYETHANOL ESTER                                          197.38
+ENDOSULFAN                                                            502641.95
+ORTHO-BENZYL-PARA-CHLOROPHENOL                                         32588.37
+Name: FRESNO, dtype: float64
+
+Top pesticides with highest relative usage in TULARE County:
+Relative usage ratio:
+Chemname
+DIFENACOUM                                    94.571110
+AMMONIUM SULFAMATE                            34.632289
+COPPER SULFATE (BASIC)                        32.456148
+SORBITOL OCTANOATE                            29.579296
+DICAMBA, DIMETHYLAMINE SALT, OTHER RELATED    20.590742
+COPPER OXYCHLORIDE                            19.749800
+2,4-D, PROPYL ESTER                           19.642242
+PYRIPROXYFEN                                  19.617645
+E-8-DODECENYL ACETATE                         19.266872
+PETROLEUM DISTILLATES                         19.120227
+dtype: float64
+
+Actual pounds used:
+Chemname
+DIFENACOUM                                          14.77
+AMMONIUM SULFAMATE                                 171.00
+COPPER SULFATE (BASIC)                        10594827.29
+SORBITOL OCTANOATE                                1799.15
+DICAMBA, DIMETHYLAMINE SALT, OTHER RELATED        2844.65
+COPPER OXYCHLORIDE                             2073106.53
+2,4-D, PROPYL ESTER                               2522.91
+PYRIPROXYFEN                                     93506.73
+E-8-DODECENYL ACETATE                             3881.39
+PETROLEUM DISTILLATES                          1340023.15
+Name: TULARE, dtype: float64
+
+Top pesticides with highest relative usage in SAN DIEGO County:
+Relative usage ratio:
+Chemname
+ZINC OXIDE                               7.472385e+06
+ARSENIC ACID                             1.793914e+03
+2,4-DINITROPHENOL                        5.054050e+02
+STREPTOMYCES GRISEOVIRIDIS STRAIN K61    1.524231e+02
+ZINC 2-PYRIDINETHIOL-1-OXIDE             1.264946e+02
+NOSEMA LOCUSTAE SPORES                   4.507765e+01
+ETHYLENE                                 3.896607e+01
+COPPER CARBONATE, BASIC                  2.921542e+01
+IBA                                      2.678010e+01
+SODIUM ARSENATE                          2.043262e+01
+dtype: float64
+
+Actual pounds used:
+Chemname
+ZINC OXIDE                               14167.64
+ARSENIC ACID                             17607.11
+2,4-DINITROPHENOL                           45.88
+STREPTOMYCES GRISEOVIRIDIS STRAIN K61       52.81
+ZINC 2-PYRIDINETHIOL-1-OXIDE                19.77
+NOSEMA LOCUSTAE SPORES                       2.40
+ETHYLENE                                 12934.66
+COPPER CARBONATE, BASIC                   5187.97
+IBA                                        203.10
+SODIUM ARSENATE                              1.92
+Name: SAN DIEGO, dtype: float64
+
+Top pesticides with highest relative usage in SAN LUIS OBISPO County:
+Relative usage ratio:
+Chemname
+ANCYMIDOL                                     53.021606
+POLYOXYETHYLENE LANOLIN                       49.243757
+DIETHANOLAMIDE OF LAURIC AND MYRISTIC ACID    49.243757
+SODIUM BROMIDE                                47.158852
+TRICHODERMA HARZIANUM RIFAI STRAIN KRL-AG2    32.365087
+DIOCTYL DIMETHYL AMMONIUM CHLORIDE            22.399504
+MUSCALURE                                     10.833561
+HYPOCREA ATROVIRIDIS                           9.019906
+HYPOCREA (TELEOMORPH)                          9.019906
+PHENOTHRIN, OTHER RELATED                      8.732968
+dtype: float64
+
+Actual pounds used:
+Chemname
+ANCYMIDOL                                          38.15
+POLYOXYETHYLENE LANOLIN                             0.21
+DIETHANOLAMIDE OF LAURIC AND MYRISTIC ACID          0.59
+SODIUM BROMIDE                                3297749.67
+TRICHODERMA HARZIANUM RIFAI STRAIN KRL-AG2        935.00
+DIOCTYL DIMETHYL AMMONIUM CHLORIDE             112413.16
+MUSCALURE                                          65.96
+HYPOCREA ATROVIRIDIS                               69.93
+HYPOCREA (TELEOMORPH)                              69.93
+PHENOTHRIN, OTHER RELATED                           0.23
+Name: SAN LUIS OBISPO, dtype: float64
+
+Top pesticides with highest relative usage in ORANGE County:
+Relative usage ratio:
+Chemname
+SODIUM HYDROXIDE             54.470378
+MCPA, 2-ETHYL HEXYL ESTER    33.658603
+DIKEGULAC SODIUM             32.939446
+4-AMINOPYRIDINE              32.300972
+LINALOOL                     31.434600
+HYDRAMETHYLNON               26.764201
+BENZYL BENZOATE              20.350138
+FENOXYCARB                   19.274909
+TRIFORINE                    14.970005
+ABAMECTIN, OTHER RELATED     14.304605
+dtype: float64
+
+Actual pounds used:
+Chemname
+SODIUM HYDROXIDE                58.80
+MCPA, 2-ETHYL HEXYL ESTER     4822.89
+DIKEGULAC SODIUM             23158.19
+4-AMINOPYRIDINE                396.54
+LINALOOL                      1250.39
+HYDRAMETHYLNON                7874.82
+BENZYL BENZOATE                  8.65
+FENOXYCARB                     116.15
+TRIFORINE                      339.75
+ABAMECTIN, OTHER RELATED         0.69
+Name: ORANGE, dtype: float64
+
+Top pesticides with highest relative usage in RIVERSIDE County:
+Relative usage ratio:
+Chemname
+SODIUM CYANIDE                  5110.779678
+TRIFLOXYSULFURON-SODIUM          317.958705
+PCP, OTHER RELATED               149.590518
+CYCLOHEXANE                      133.041185
+PENTACHLOROPHENOL                130.158095
+ACETIC ACID                       58.626753
+NONANOIC ACID, OTHER RELATED      41.059225
+NONANOIC ACID                     41.023497
+SIDURON                           34.583354
+BARBAN                            30.833260
+dtype: float64
+
+Actual pounds used:
+Chemname
+SODIUM CYANIDE                   58628.50
+TRIFLOXYSULFURON-SODIUM           4714.54
+PCP, OTHER RELATED                  72.99
+CYCLOHEXANE                          0.50
+PENTACHLOROPHENOL                  506.29
+ACETIC ACID                      29064.32
+NONANOIC ACID, OTHER RELATED      7149.88
+NONANOIC ACID                   135848.00
+SIDURON                          46624.21
+BARBAN                              11.94
+Name: RIVERSIDE, dtype: float64
+
+Top pesticides with highest relative usage in VENTURA County:
+Relative usage ratio:
+Chemname
+PSEUDOMONAS SYRINGAE STRAIN: ESC 11                                544.272949
+3,4',5-TRIBROMOSALICYLANILIDE                                      358.213542
+DIPROPYL ISOCINCHOMERONATE                                         159.189710
+KINOPRENE                                                           62.313981
+ANILAZINE                                                           59.813111
+FERRIC SODIUM EDTA                                                  40.892525
+THIRAM                                                              29.453869
+DICLORAN                                                            27.649960
+DIMETHYLAMINE 2-(2,4-DICHLOROPHENOXY)PROPIONATE                     24.388999
+BACILLUS THURINGIENSIS (BERLINER), SUBSP. AIZAWAI, SEROTYPE H-7     22.942271
+dtype: float64
+
+Actual pounds used:
+Chemname
+PSEUDOMONAS SYRINGAE STRAIN: ESC 11                                    20.10
+3,4',5-TRIBROMOSALICYLANILIDE                                           0.02
+DIPROPYL ISOCINCHOMERONATE                                             52.86
+KINOPRENE                                                              11.72
+ANILAZINE                                                            1972.59
+FERRIC SODIUM EDTA                                                  42418.60
+THIRAM                                                             619939.53
+DICLORAN                                                           515728.28
+DIMETHYLAMINE 2-(2,4-DICHLOROPHENOXY)PROPIONATE                       651.05
+BACILLUS THURINGIENSIS (BERLINER), SUBSP. AIZAWAI, SEROTYPE H-7     16109.15
+Name: VENTURA, dtype: float64
+
+Top pesticides with highest relative usage in KINGS County:
+Relative usage ratio:
+Chemname
+SEDAXANE                     41.009681
+NOVALURON                    30.601044
+MCPP, DIETHANOLAMINE SALT    27.541674
+TCMTB                        23.308073
+FLONICAMID                   21.869825
+SODIUM CHLORATE              18.547820
+NALED                        17.116515
+PROFENOFOS                   16.834804
+OXAMYL                       16.650020
+ETHEPHON                     13.869580
+dtype: float64
+
+Actual pounds used:
+Chemname
+SEDAXANE                         266.25
+NOVALURON                      81497.77
+MCPP, DIETHANOLAMINE SALT          6.69
+TCMTB                          47459.62
+FLONICAMID                    201905.95
+SODIUM CHLORATE              4676630.40
+NALED                        1393918.74
+PROFENOFOS                     75738.40
+OXAMYL                        504670.58
+ETHEPHON                     2033476.78
+Name: KINGS, dtype: float64
 
 
 todo 
+- change the build scripts so that there is a x dataset and y dataset
 - run a correlation matrix onf the pesticide
 - did the full training for the irb investigators and student researchers
 - did the fulll trining for the export controls  for studnents
