@@ -42,15 +42,6 @@ df = df.drop(['DateTime', 'WeatherMain', 'WeatherIcon', 'TimeZone', 'WeatherID']
 df['Date'] = pd.to_datetime(df['DateTimeISO'], format='%Y-%m-%d %H:%M:%S +0000 UTC')
 df.drop('DateTimeISO', axis=1)
 
-output_path = "../../data/processed/Arizona_Weather_Data_Hourly_Updates_1979_to_2024.csv"
-df.to_csv(output_path, index=False)
-#not doing this because it will explode the columns
-# #one hot encode the weather description
-# dummy_df = pd.get_dummies(df['WeatherDescription'])
-
-# df = pd.concat([df, dummy_df], axis=1)
-# df.drop("WeatherDescription", axis=1)
-
 #aggregate so that it is mean over day not hourly
 df['DateOnly'] = df['Date'].dt.date
 
@@ -62,13 +53,9 @@ df = df.groupby(['County', 'DateOnly']).agg({
 
 df = df.rename(columns={'DateOnly': 'Date'})
 
-output_path = "../../data/processed/Arizona_Weather_Data_Daily_Updates_1979_to_2024.csv"
-df.to_csv(output_path, index=False)
 #narrow down to the years to fit  the cm dataset
 df['Date'] = pd.to_datetime(df['Date'])
 df = df[(df['Date'] >= pd.to_datetime('1994-01-01')) & 
         (df['Date'] <= pd.to_datetime('2023-12-31'))]
 output_path = "../../data/processed/Arizona_Weather_Data_Daily_Updates_1994_to_2023.csv"
 df.to_csv(output_path, index=False)
-
-df.head()
