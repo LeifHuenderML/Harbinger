@@ -1,0 +1,1984 @@
+
+Starting California data collection...
+
+Processing California data for year 2000 for PM2.5
+Fetching 2000 data for parameter 88101 in state 06
+Successfully retrieved 83432 rows
+
+Processing California data for year 2001 for PM2.5
+Fetching 2001 data for parameter 88101 in state 06
+Successfully retrieved 87616 rows
+
+Processing California data for year 2002 for PM2.5
+Fetching 2002 data for parameter 88101 in state 06
+Successfully retrieved 91520 rows
+
+Processing California data for year 2003 for PM2.5
+Fetching 2003 data for parameter 88101 in state 06
+Successfully retrieved 92030 rows
+
+Processing California data for year 2004 for PM2.5
+Fetching 2004 data for parameter 88101 in state 06
+Successfully retrieved 93160 rows
+
+Processing California data for year 2005 for PM2.5
+Fetching 2005 data for parameter 88101 in state 06
+Successfully retrieved 93992 rows
+
+Processing California data for year 2006 for PM2.5
+Fetching 2006 data for parameter 88101 in state 06
+Successfully retrieved 92424 rows
+
+Processing California data for year 2007 for PM2.5
+Fetching 2007 data for parameter 88101 in state 06
+Successfully retrieved 91300 rows
+
+Processing California data for year 2008 for PM2.5
+Fetching 2008 data for parameter 88101 in state 06
+Successfully retrieved 93212 rows
+
+Processing California data for year 2009 for PM2.5
+Fetching 2009 data for parameter 88101 in state 06
+Successfully retrieved 144380 rows
+
+Processing California data for year 2010 for PM2.5
+Fetching 2010 data for parameter 88101 in state 06
+Successfully retrieved 164634 rows
+
+Processing California data for year 2011 for PM2.5
+Fetching 2011 data for parameter 88101 in state 06
+Successfully retrieved 193754 rows
+
+Processing California data for year 2012 for PM2.5
+Fetching 2012 data for parameter 88101 in state 06
+Successfully retrieved 233050 rows
+
+Processing California data for year 2013 for PM2.5
+Fetching 2013 data for parameter 88101 in state 06
+Successfully retrieved 254389 rows
+
+Processing California data for year 2014 for PM2.5
+Fetching 2014 data for parameter 88101 in state 06
+Successfully retrieved 255905 rows
+
+Processing California data for year 2015 for PM2.5
+Fetching 2015 data for parameter 88101 in state 06
+Successfully retrieved 280659 rows
+
+Processing California data for year 2016 for PM2.5
+Fetching 2016 data for parameter 88101 in state 06
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+Processing California data for year 2017 for PM2.5
+Fetching 2017 data for parameter 88101 in state 06
+Successfully retrieved 319822 rows
+
+Processing California data for year 2018 for PM2.5
+Fetching 2018 data for parameter 88101 in state 06
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+Processing California data for year 2019 for PM2.5
+Fetching 2019 data for parameter 88101 in state 06
+Successfully retrieved 358608 rows
+
+Processing California data for year 2020 for PM2.5
+Fetching 2020 data for parameter 88101 in state 06
+Successfully retrieved 373420 rows
+
+Processing California data for year 2021 for PM2.5
+Fetching 2021 data for parameter 88101 in state 06
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+Processing California data for year 2022 for PM2.5
+Fetching 2022 data for parameter 88101 in state 06
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+All California PM2.5 data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for PM10
+Fetching 2000 data for parameter 81102 in state 06
+Successfully retrieved 24720 rows
+
+Processing California data for year 2001 for PM10
+Fetching 2001 data for parameter 81102 in state 06
+Successfully retrieved 26021 rows
+
+Processing California data for year 2002 for PM10
+Fetching 2002 data for parameter 81102 in state 06
+Successfully retrieved 24950 rows
+
+Processing California data for year 2003 for PM10
+Fetching 2003 data for parameter 81102 in state 06
+Successfully retrieved 22199 rows
+
+Processing California data for year 2004 for PM10
+Fetching 2004 data for parameter 81102 in state 06
+Successfully retrieved 20901 rows
+
+Processing California data for year 2005 for PM10
+Fetching 2005 data for parameter 81102 in state 06
+Successfully retrieved 22230 rows
+
+Processing California data for year 2006 for PM10
+Fetching 2006 data for parameter 81102 in state 06
+Successfully retrieved 23553 rows
+
+Processing California data for year 2007 for PM10
+Fetching 2007 data for parameter 81102 in state 06
+Successfully retrieved 21517 rows
+
+Processing California data for year 2008 for PM10
+Fetching 2008 data for parameter 81102 in state 06
+Successfully retrieved 29133 rows
+
+Processing California data for year 2009 for PM10
+Fetching 2009 data for parameter 81102 in state 06
+Successfully retrieved 29517 rows
+
+Processing California data for year 2010 for PM10
+Fetching 2010 data for parameter 81102 in state 06
+Successfully retrieved 32828 rows
+
+Processing California data for year 2011 for PM10
+Fetching 2011 data for parameter 81102 in state 06
+Successfully retrieved 38019 rows
+
+Processing California data for year 2012 for PM10
+Fetching 2012 data for parameter 81102 in state 06
+Successfully retrieved 36358 rows
+
+Processing California data for year 2013 for PM10
+Fetching 2013 data for parameter 81102 in state 06
+Successfully retrieved 44124 rows
+
+Processing California data for year 2014 for PM10
+Fetching 2014 data for parameter 81102 in state 06
+Successfully retrieved 51606 rows
+
+Processing California data for year 2015 for PM10
+Fetching 2015 data for parameter 81102 in state 06
+Successfully retrieved 59694 rows
+
+Processing California data for year 2016 for PM10
+Fetching 2016 data for parameter 81102 in state 06
+Successfully retrieved 62418 rows
+
+Processing California data for year 2017 for PM10
+Fetching 2017 data for parameter 81102 in state 06
+Successfully retrieved 63953 rows
+
+Processing California data for year 2018 for PM10
+Fetching 2018 data for parameter 81102 in state 06
+Successfully retrieved 66371 rows
+
+Processing California data for year 2019 for PM10
+Fetching 2019 data for parameter 81102 in state 06
+Successfully retrieved 65997 rows
+
+Processing California data for year 2020 for PM10
+Fetching 2020 data for parameter 81102 in state 06
+Successfully retrieved 68091 rows
+
+Processing California data for year 2021 for PM10
+Fetching 2021 data for parameter 81102 in state 06
+Successfully retrieved 67359 rows
+
+Processing California data for year 2022 for PM10
+Fetching 2022 data for parameter 81102 in state 06
+Successfully retrieved 72450 rows
+
+All California PM10 data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for TSP
+Fetching 2000 data for parameter 85101 in state 06
+Successfully retrieved 11430 rows
+
+Processing California data for year 2001 for TSP
+Fetching 2001 data for parameter 85101 in state 06
+Successfully retrieved 12075 rows
+
+Processing California data for year 2002 for TSP
+Fetching 2002 data for parameter 85101 in state 06
+Successfully retrieved 13878 rows
+
+Processing California data for year 2003 for TSP
+Fetching 2003 data for parameter 85101 in state 06
+Successfully retrieved 15870 rows
+
+Processing California data for year 2004 for TSP
+Fetching 2004 data for parameter 85101 in state 06
+Successfully retrieved 15639 rows
+
+Processing California data for year 2005 for TSP
+Fetching 2005 data for parameter 85101 in state 06
+Successfully retrieved 16832 rows
+
+Processing California data for year 2006 for TSP
+Fetching 2006 data for parameter 85101 in state 06
+Successfully retrieved 17433 rows
+
+Processing California data for year 2007 for TSP
+Fetching 2007 data for parameter 85101 in state 06
+Successfully retrieved 16467 rows
+
+Processing California data for year 2008 for TSP
+Fetching 2008 data for parameter 85101 in state 06
+Successfully retrieved 16409 rows
+
+Processing California data for year 2009 for TSP
+Fetching 2009 data for parameter 85101 in state 06
+Successfully retrieved 17246 rows
+
+Processing California data for year 2010 for TSP
+Fetching 2010 data for parameter 85101 in state 06
+Successfully retrieved 19128 rows
+
+Processing California data for year 2011 for TSP
+Fetching 2011 data for parameter 85101 in state 06
+Successfully retrieved 20957 rows
+
+Processing California data for year 2012 for TSP
+Fetching 2012 data for parameter 85101 in state 06
+Successfully retrieved 21959 rows
+
+Processing California data for year 2013 for TSP
+Fetching 2013 data for parameter 85101 in state 06
+Successfully retrieved 23373 rows
+
+Processing California data for year 2014 for TSP
+Fetching 2014 data for parameter 85101 in state 06
+Successfully retrieved 25556 rows
+
+Processing California data for year 2015 for TSP
+Fetching 2015 data for parameter 85101 in state 06
+Successfully retrieved 26151 rows
+
+Processing California data for year 2016 for TSP
+Fetching 2016 data for parameter 85101 in state 06
+Successfully retrieved 27526 rows
+
+Processing California data for year 2017 for TSP
+Fetching 2017 data for parameter 85101 in state 06
+Successfully retrieved 28286 rows
+
+Processing California data for year 2018 for TSP
+Fetching 2018 data for parameter 85101 in state 06
+Successfully retrieved 29384 rows
+
+Processing California data for year 2019 for TSP
+Fetching 2019 data for parameter 85101 in state 06
+Successfully retrieved 29115 rows
+
+Processing California data for year 2020 for TSP
+Fetching 2020 data for parameter 85101 in state 06
+Successfully retrieved 30212 rows
+
+Processing California data for year 2021 for TSP
+Fetching 2021 data for parameter 85101 in state 06
+Successfully retrieved 35881 rows
+
+Processing California data for year 2022 for TSP
+Fetching 2022 data for parameter 85101 in state 06
+Successfully retrieved 30716 rows
+
+All California TSP data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for PM2.5_nonref
+Fetching 2000 data for parameter 88502 in state 06
+Successfully retrieved 2239 rows
+
+Processing California data for year 2001 for PM2.5_nonref
+Fetching 2001 data for parameter 88502 in state 06
+Successfully retrieved 3324 rows
+
+Processing California data for year 2002 for PM2.5_nonref
+Fetching 2002 data for parameter 88502 in state 06
+Successfully retrieved 6005 rows
+
+Processing California data for year 2003 for PM2.5_nonref
+Fetching 2003 data for parameter 88502 in state 06
+Successfully retrieved 6918 rows
+
+Processing California data for year 2004 for PM2.5_nonref
+Fetching 2004 data for parameter 88502 in state 06
+Successfully retrieved 12872 rows
+
+Processing California data for year 2005 for PM2.5_nonref
+Fetching 2005 data for parameter 88502 in state 06
+Successfully retrieved 15407 rows
+
+Processing California data for year 2006 for PM2.5_nonref
+Fetching 2006 data for parameter 88502 in state 06
+Successfully retrieved 14509 rows
+
+Processing California data for year 2007 for PM2.5_nonref
+Fetching 2007 data for parameter 88502 in state 06
+Successfully retrieved 21022 rows
+
+Processing California data for year 2008 for PM2.5_nonref
+Fetching 2008 data for parameter 88502 in state 06
+Successfully retrieved 25301 rows
+
+Processing California data for year 2009 for PM2.5_nonref
+Fetching 2009 data for parameter 88502 in state 06
+Successfully retrieved 23120 rows
+
+Processing California data for year 2010 for PM2.5_nonref
+Fetching 2010 data for parameter 88502 in state 06
+Successfully retrieved 30360 rows
+
+Processing California data for year 2011 for PM2.5_nonref
+Fetching 2011 data for parameter 88502 in state 06
+Successfully retrieved 31545 rows
+
+Processing California data for year 2012 for PM2.5_nonref
+Fetching 2012 data for parameter 88502 in state 06
+Successfully retrieved 33393 rows
+
+Processing California data for year 2013 for PM2.5_nonref
+Fetching 2013 data for parameter 88502 in state 06
+Successfully retrieved 33219 rows
+
+Processing California data for year 2014 for PM2.5_nonref
+Fetching 2014 data for parameter 88502 in state 06
+Successfully retrieved 31052 rows
+
+Processing California data for year 2015 for PM2.5_nonref
+Fetching 2015 data for parameter 88502 in state 06
+Successfully retrieved 30607 rows
+
+Processing California data for year 2016 for PM2.5_nonref
+Fetching 2016 data for parameter 88502 in state 06
+Successfully retrieved 27695 rows
+
+Processing California data for year 2017 for PM2.5_nonref
+Fetching 2017 data for parameter 88502 in state 06
+Successfully retrieved 25639 rows
+
+Processing California data for year 2018 for PM2.5_nonref
+Fetching 2018 data for parameter 88502 in state 06
+Successfully retrieved 25810 rows
+
+Processing California data for year 2019 for PM2.5_nonref
+Fetching 2019 data for parameter 88502 in state 06
+Successfully retrieved 27126 rows
+
+Processing California data for year 2020 for PM2.5_nonref
+Fetching 2020 data for parameter 88502 in state 06
+Successfully retrieved 30518 rows
+
+Processing California data for year 2021 for PM2.5_nonref
+Fetching 2021 data for parameter 88502 in state 06
+Successfully retrieved 27663 rows
+
+Processing California data for year 2022 for PM2.5_nonref
+Fetching 2022 data for parameter 88502 in state 06
+Successfully retrieved 25027 rows
+
+All California PM2.5_nonref data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for PM10-2.5
+Fetching 2000 data for parameter 81104 in state 06
+Successfully retrieved 675 rows
+
+Processing California data for year 2001 for PM10-2.5
+Fetching 2001 data for parameter 81104 in state 06
+Successfully retrieved 468 rows
+
+Processing California data for year 2002 for PM10-2.5
+Fetching 2002 data for parameter 81104 in state 06
+Successfully retrieved 283 rows
+
+Processing California data for year 2003 for PM10-2.5
+Fetching 2003 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2004 for PM10-2.5
+Fetching 2004 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2005 for PM10-2.5
+Fetching 2005 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2006 for PM10-2.5
+Fetching 2006 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2007 for PM10-2.5
+Fetching 2007 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2008 for PM10-2.5
+Fetching 2008 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2009 for PM10-2.5
+Fetching 2009 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2010 for PM10-2.5
+Fetching 2010 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2011 for PM10-2.5
+Fetching 2011 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2012 for PM10-2.5
+Fetching 2012 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2013 for PM10-2.5
+Fetching 2013 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2014 for PM10-2.5
+Fetching 2014 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2015 for PM10-2.5
+Fetching 2015 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2016 for PM10-2.5
+Fetching 2016 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2017 for PM10-2.5
+Fetching 2017 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2018 for PM10-2.5
+Fetching 2018 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2019 for PM10-2.5
+Fetching 2019 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2020 for PM10-2.5
+Fetching 2020 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2021 for PM10-2.5
+Fetching 2021 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+Processing California data for year 2022 for PM10-2.5
+Fetching 2022 data for parameter 81104 in state 06
+Error: No data matched your selection
+
+All California PM10-2.5 data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for Ozone
+Fetching 2000 data for parameter 44201 in state 06
+Successfully retrieved 242323 rows
+
+Processing California data for year 2001 for Ozone
+Fetching 2001 data for parameter 44201 in state 06
+Successfully retrieved 247543 rows
+
+Processing California data for year 2002 for Ozone
+Fetching 2002 data for parameter 44201 in state 06
+Successfully retrieved 250818 rows
+
+Processing California data for year 2003 for Ozone
+Fetching 2003 data for parameter 44201 in state 06
+Successfully retrieved 249893 rows
+
+Processing California data for year 2004 for Ozone
+Fetching 2004 data for parameter 44201 in state 06
+Successfully retrieved 247286 rows
+
+Processing California data for year 2005 for Ozone
+Fetching 2005 data for parameter 44201 in state 06
+Successfully retrieved 238706 rows
+
+Processing California data for year 2006 for Ozone
+Fetching 2006 data for parameter 44201 in state 06
+Successfully retrieved 242084 rows
+
+Processing California data for year 2007 for Ozone
+Fetching 2007 data for parameter 44201 in state 06
+Successfully retrieved 247712 rows
+
+Processing California data for year 2008 for Ozone
+Fetching 2008 data for parameter 44201 in state 06
+Successfully retrieved 258037 rows
+
+Processing California data for year 2009 for Ozone
+Fetching 2009 data for parameter 44201 in state 06
+Successfully retrieved 245646 rows
+
+Processing California data for year 2010 for Ozone
+Fetching 2010 data for parameter 44201 in state 06
+Successfully retrieved 247885 rows
+
+Processing California data for year 2011 for Ozone
+Fetching 2011 data for parameter 44201 in state 06
+Successfully retrieved 249288 rows
+
+Processing California data for year 2012 for Ozone
+Fetching 2012 data for parameter 44201 in state 06
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+Processing California data for year 2013 for Ozone
+Fetching 2013 data for parameter 44201 in state 06
+Successfully retrieved 247597 rows
+
+Processing California data for year 2014 for Ozone
+Fetching 2014 data for parameter 44201 in state 06
+Successfully retrieved 246503 rows
+
+Processing California data for year 2015 for Ozone
+Fetching 2015 data for parameter 44201 in state 06
+Successfully retrieved 242204 rows
+
+Processing California data for year 2016 for Ozone
+Fetching 2016 data for parameter 44201 in state 06
+Successfully retrieved 245870 rows
+
+Processing California data for year 2017 for Ozone
+Fetching 2017 data for parameter 44201 in state 06
+Successfully retrieved 237296 rows
+
+Processing California data for year 2018 for Ozone
+Fetching 2018 data for parameter 44201 in state 06
+Successfully retrieved 242962 rows
+
+Processing California data for year 2019 for Ozone
+Fetching 2019 data for parameter 44201 in state 06
+Successfully retrieved 237362 rows
+
+Processing California data for year 2020 for Ozone
+Fetching 2020 data for parameter 44201 in state 06
+Successfully retrieved 241382 rows
+
+Processing California data for year 2021 for Ozone
+Fetching 2021 data for parameter 44201 in state 06
+Successfully retrieved 233803 rows
+
+Processing California data for year 2022 for Ozone
+Fetching 2022 data for parameter 44201 in state 06
+Successfully retrieved 228574 rows
+
+All California Ozone data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for SO2
+Fetching 2000 data for parameter 42401 in state 06
+Successfully retrieved 51997 rows
+
+Processing California data for year 2001 for SO2
+Fetching 2001 data for parameter 42401 in state 06
+Successfully retrieved 55707 rows
+
+Processing California data for year 2002 for SO2
+Fetching 2002 data for parameter 42401 in state 06
+Successfully retrieved 57111 rows
+
+Processing California data for year 2003 for SO2
+Fetching 2003 data for parameter 42401 in state 06
+Successfully retrieved 54369 rows
+
+Processing California data for year 2004 for SO2
+Fetching 2004 data for parameter 42401 in state 06
+Successfully retrieved 51426 rows
+
+Processing California data for year 2005 for SO2
+Fetching 2005 data for parameter 42401 in state 06
+Successfully retrieved 47185 rows
+
+Processing California data for year 2006 for SO2
+Fetching 2006 data for parameter 42401 in state 06
+Successfully retrieved 49242 rows
+
+Processing California data for year 2007 for SO2
+Fetching 2007 data for parameter 42401 in state 06
+Successfully retrieved 51201 rows
+
+Processing California data for year 2008 for SO2
+Fetching 2008 data for parameter 42401 in state 06
+Successfully retrieved 53017 rows
+
+Processing California data for year 2009 for SO2
+Fetching 2009 data for parameter 42401 in state 06
+Successfully retrieved 48530 rows
+
+Processing California data for year 2010 for SO2
+Fetching 2010 data for parameter 42401 in state 06
+Successfully retrieved 50117 rows
+
+Processing California data for year 2011 for SO2
+Fetching 2011 data for parameter 42401 in state 06
+Successfully retrieved 50869 rows
+
+Processing California data for year 2012 for SO2
+Fetching 2012 data for parameter 42401 in state 06
+Successfully retrieved 48684 rows
+
+Processing California data for year 2013 for SO2
+Fetching 2013 data for parameter 42401 in state 06
+Successfully retrieved 50732 rows
+
+Processing California data for year 2014 for SO2
+Fetching 2014 data for parameter 42401 in state 06
+Successfully retrieved 46444 rows
+
+Processing California data for year 2015 for SO2
+Fetching 2015 data for parameter 42401 in state 06
+Successfully retrieved 47797 rows
+
+Processing California data for year 2016 for SO2
+Fetching 2016 data for parameter 42401 in state 06
+Successfully retrieved 47916 rows
+
+Processing California data for year 2017 for SO2
+Fetching 2017 data for parameter 42401 in state 06
+Successfully retrieved 46812 rows
+
+Processing California data for year 2018 for SO2
+Fetching 2018 data for parameter 42401 in state 06
+Successfully retrieved 46293 rows
+
+Processing California data for year 2019 for SO2
+Fetching 2019 data for parameter 42401 in state 06
+Successfully retrieved 42852 rows
+
+Processing California data for year 2020 for SO2
+Fetching 2020 data for parameter 42401 in state 06
+Successfully retrieved 40667 rows
+
+Processing California data for year 2021 for SO2
+Fetching 2021 data for parameter 42401 in state 06
+Successfully retrieved 41753 rows
+
+Processing California data for year 2022 for SO2
+Fetching 2022 data for parameter 42401 in state 06
+Successfully retrieved 35844 rows
+
+All California SO2 data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for CO
+Fetching 2000 data for parameter 42101 in state 06
+Successfully retrieved 62583 rows
+
+Processing California data for year 2001 for CO
+Fetching 2001 data for parameter 42101 in state 06
+Successfully retrieved 61627 rows
+
+Processing California data for year 2002 for CO
+Fetching 2002 data for parameter 42101 in state 06
+Successfully retrieved 63800 rows
+
+Processing California data for year 2003 for CO
+Fetching 2003 data for parameter 42101 in state 06
+Successfully retrieved 64473 rows
+
+Processing California data for year 2004 for CO
+Fetching 2004 data for parameter 42101 in state 06
+Successfully retrieved 61874 rows
+
+Processing California data for year 2005 for CO
+Fetching 2005 data for parameter 42101 in state 06
+Successfully retrieved 59847 rows
+
+Processing California data for year 2006 for CO
+Fetching 2006 data for parameter 42101 in state 06
+Successfully retrieved 50473 rows
+
+Processing California data for year 2007 for CO
+Fetching 2007 data for parameter 42101 in state 06
+Successfully retrieved 50782 rows
+
+Processing California data for year 2008 for CO
+Fetching 2008 data for parameter 42101 in state 06
+Successfully retrieved 54610 rows
+
+Processing California data for year 2009 for CO
+Fetching 2009 data for parameter 42101 in state 06
+Successfully retrieved 51456 rows
+
+Processing California data for year 2010 for CO
+Fetching 2010 data for parameter 42101 in state 06
+Successfully retrieved 49673 rows
+
+Processing California data for year 2011 for CO
+Fetching 2011 data for parameter 42101 in state 06
+Successfully retrieved 50184 rows
+
+Processing California data for year 2012 for CO
+Fetching 2012 data for parameter 42101 in state 06
+Successfully retrieved 49286 rows
+
+Processing California data for year 2013 for CO
+Fetching 2013 data for parameter 42101 in state 06
+Successfully retrieved 50891 rows
+
+Processing California data for year 2014 for CO
+Fetching 2014 data for parameter 42101 in state 06
+Successfully retrieved 51007 rows
+
+Processing California data for year 2015 for CO
+Fetching 2015 data for parameter 42101 in state 06
+Successfully retrieved 52031 rows
+
+Processing California data for year 2016 for CO
+Fetching 2016 data for parameter 42101 in state 06
+Successfully retrieved 51178 rows
+
+Processing California data for year 2017 for CO
+Fetching 2017 data for parameter 42101 in state 06
+Successfully retrieved 50613 rows
+
+Processing California data for year 2018 for CO
+Fetching 2018 data for parameter 42101 in state 06
+Successfully retrieved 49241 rows
+
+Processing California data for year 2019 for CO
+Fetching 2019 data for parameter 42101 in state 06
+Successfully retrieved 44571 rows
+
+Processing California data for year 2020 for CO
+Fetching 2020 data for parameter 42101 in state 06
+Successfully retrieved 44234 rows
+
+Processing California data for year 2021 for CO
+Fetching 2021 data for parameter 42101 in state 06
+Successfully retrieved 41485 rows
+
+Processing California data for year 2022 for CO
+Fetching 2022 data for parameter 42101 in state 06
+Successfully retrieved 37135 rows
+
+All California CO data from 2000 to 2022 has been saved!
+
+Processing California data for year 2000 for NO2
+Fetching 2000 data for parameter 42602 in state 06
+Successfully retrieved 77592 rows
+
+Processing California data for year 2001 for NO2
+Fetching 2001 data for parameter 42602 in state 06
+Successfully retrieved 76722 rows
+
+Processing California data for year 2002 for NO2
+Fetching 2002 data for parameter 42602 in state 06
+Successfully retrieved 78254 rows
+
+Processing California data for year 2003 for NO2
+Fetching 2003 data for parameter 42602 in state 06
+Successfully retrieved 77702 rows
+
+Processing California data for year 2004 for NO2
+Fetching 2004 data for parameter 42602 in state 06
+Successfully retrieved 75682 rows
+
+Processing California data for year 2005 for NO2
+Fetching 2005 data for parameter 42602 in state 06
+Successfully retrieved 72638 rows
+
+Processing California data for year 2006 for NO2
+Fetching 2006 data for parameter 42602 in state 06
+Successfully retrieved 70544 rows
+
+Processing California data for year 2007 for NO2
+Fetching 2007 data for parameter 42602 in state 06
+Successfully retrieved 70974 rows
+
+Processing California data for year 2008 for NO2
+Fetching 2008 data for parameter 42602 in state 06
+Successfully retrieved 74658 rows
+
+Processing California data for year 2009 for NO2
+Fetching 2009 data for parameter 42602 in state 06
+Successfully retrieved 73502 rows
+
+Processing California data for year 2010 for NO2
+Fetching 2010 data for parameter 42602 in state 06
+Successfully retrieved 72030 rows
+
+Processing California data for year 2011 for NO2
+Fetching 2011 data for parameter 42602 in state 06
+Successfully retrieved 68924 rows
+
+Processing California data for year 2012 for NO2
+Fetching 2012 data for parameter 42602 in state 06
+Successfully retrieved 70144 rows
+
+Processing California data for year 2013 for NO2
+Fetching 2013 data for parameter 42602 in state 06
+Successfully retrieved 69630 rows
+
+Processing California data for year 2014 for NO2
+Fetching 2014 data for parameter 42602 in state 06
+Successfully retrieved 71152 rows
+
+Processing California data for year 2015 for NO2
+Fetching 2015 data for parameter 42602 in state 06
+Successfully retrieved 73442 rows
+
+Processing California data for year 2016 for NO2
+Fetching 2016 data for parameter 42602 in state 06
+Successfully retrieved 74498 rows
+
+Processing California data for year 2017 for NO2
+Fetching 2017 data for parameter 42602 in state 06
+Successfully retrieved 72234 rows
+
+Processing California data for year 2018 for NO2
+Fetching 2018 data for parameter 42602 in state 06
+Successfully retrieved 71866 rows
+
+Processing California data for year 2019 for NO2
+Fetching 2019 data for parameter 42602 in state 06
+Successfully retrieved 70186 rows
+
+Processing California data for year 2020 for NO2
+Fetching 2020 data for parameter 42602 in state 06
+Successfully retrieved 71554 rows
+
+Processing California data for year 2021 for NO2
+Fetching 2021 data for parameter 42602 in state 06
+Successfully retrieved 70794 rows
+
+Processing California data for year 2022 for NO2
+Fetching 2022 data for parameter 42602 in state 06
+Successfully retrieved 69346 rows
+
+All California NO2 data from 2000 to 2022 has been saved!
+
+Starting Arizona data collection...
+
+Processing Arizona data for year 1993 for PM2.5
+Fetching 1993 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1994 for PM2.5
+Fetching 1994 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1995 for PM2.5
+Fetching 1995 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1996 for PM2.5
+Fetching 1996 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1997 for PM2.5
+Fetching 1997 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1998 for PM2.5
+Fetching 1998 data for parameter 88101 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1999 for PM2.5
+Fetching 1999 data for parameter 88101 in state 04
+Successfully retrieved 14984 rows
+
+Processing Arizona data for year 2000 for PM2.5
+Fetching 2000 data for parameter 88101 in state 04
+Successfully retrieved 14192 rows
+
+Processing Arizona data for year 2001 for PM2.5
+Fetching 2001 data for parameter 88101 in state 04
+Successfully retrieved 14448 rows
+
+Processing Arizona data for year 2002 for PM2.5
+Fetching 2002 data for parameter 88101 in state 04
+Successfully retrieved 12248 rows
+
+Processing Arizona data for year 2003 for PM2.5
+Fetching 2003 data for parameter 88101 in state 04
+Successfully retrieved 10968 rows
+
+Processing Arizona data for year 2004 for PM2.5
+Fetching 2004 data for parameter 88101 in state 04
+Successfully retrieved 11160 rows
+
+Processing Arizona data for year 2005 for PM2.5
+Fetching 2005 data for parameter 88101 in state 04
+Successfully retrieved 13032 rows
+
+Processing Arizona data for year 2006 for PM2.5
+Fetching 2006 data for parameter 88101 in state 04
+Successfully retrieved 14760 rows
+
+Processing Arizona data for year 2007 for PM2.5
+Fetching 2007 data for parameter 88101 in state 04
+Successfully retrieved 13482 rows
+
+Processing Arizona data for year 2008 for PM2.5
+Fetching 2008 data for parameter 88101 in state 04
+Successfully retrieved 13214 rows
+
+Processing Arizona data for year 2009 for PM2.5
+Fetching 2009 data for parameter 88101 in state 04
+Successfully retrieved 14082 rows
+
+Processing Arizona data for year 2010 for PM2.5
+Fetching 2010 data for parameter 88101 in state 04
+Successfully retrieved 21555 rows
+
+Processing Arizona data for year 2011 for PM2.5
+Fetching 2011 data for parameter 88101 in state 04
+Successfully retrieved 33156 rows
+
+Processing Arizona data for year 2012 for PM2.5
+Fetching 2012 data for parameter 88101 in state 04
+Successfully retrieved 37787 rows
+
+Processing Arizona data for year 2013 for PM2.5
+Fetching 2013 data for parameter 88101 in state 04
+Successfully retrieved 44822 rows
+
+Processing Arizona data for year 2014 for PM2.5
+Fetching 2014 data for parameter 88101 in state 04
+Successfully retrieved 55901 rows
+
+Processing Arizona data for year 2015 for PM2.5
+Fetching 2015 data for parameter 88101 in state 04
+Successfully retrieved 55213 rows
+
+Processing Arizona data for year 2016 for PM2.5
+Fetching 2016 data for parameter 88101 in state 04
+Successfully retrieved 60019 rows
+
+Processing Arizona data for year 2017 for PM2.5
+Fetching 2017 data for parameter 88101 in state 04
+Successfully retrieved 59830 rows
+
+Processing Arizona data for year 2018 for PM2.5
+Fetching 2018 data for parameter 88101 in state 04
+Successfully retrieved 61520 rows
+
+Processing Arizona data for year 2019 for PM2.5
+Fetching 2019 data for parameter 88101 in state 04
+Successfully retrieved 61981 rows
+
+Processing Arizona data for year 2020 for PM2.5
+Fetching 2020 data for parameter 88101 in state 04
+Successfully retrieved 58273 rows
+
+Processing Arizona data for year 2021 for PM2.5
+Fetching 2021 data for parameter 88101 in state 04
+Successfully retrieved 57608 rows
+
+Processing Arizona data for year 2022 for PM2.5
+Fetching 2022 data for parameter 88101 in state 04
+Successfully retrieved 60004 rows
+
+Processing Arizona data for year 2023 for PM2.5
+Fetching 2023 data for parameter 88101 in state 04
+Successfully retrieved 60988 rows
+
+All Arizona PM2.5 data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for PM10
+Fetching 1993 data for parameter 81102 in state 04
+Successfully retrieved 2123 rows
+
+Processing Arizona data for year 1994 for PM10
+Fetching 1994 data for parameter 81102 in state 04
+Successfully retrieved 2319 rows
+
+Processing Arizona data for year 1995 for PM10
+Fetching 1995 data for parameter 81102 in state 04
+Successfully retrieved 2237 rows
+
+Processing Arizona data for year 1996 for PM10
+Fetching 1996 data for parameter 81102 in state 04
+Successfully retrieved 2422 rows
+
+Processing Arizona data for year 1997 for PM10
+Fetching 1997 data for parameter 81102 in state 04
+Successfully retrieved 5607 rows
+
+Processing Arizona data for year 1998 for PM10
+Fetching 1998 data for parameter 81102 in state 04
+Successfully retrieved 4966 rows
+
+Processing Arizona data for year 1999 for PM10
+Fetching 1999 data for parameter 81102 in state 04
+Successfully retrieved 3656 rows
+
+Processing Arizona data for year 2000 for PM10
+Fetching 2000 data for parameter 81102 in state 04
+Successfully retrieved 4100 rows
+
+Processing Arizona data for year 2001 for PM10
+Fetching 2001 data for parameter 81102 in state 04
+Successfully retrieved 4541 rows
+
+Processing Arizona data for year 2002 for PM10
+Fetching 2002 data for parameter 81102 in state 04
+Successfully retrieved 4824 rows
+
+Processing Arizona data for year 2003 for PM10
+Fetching 2003 data for parameter 81102 in state 04
+Successfully retrieved 6268 rows
+
+Processing Arizona data for year 2004 for PM10
+Fetching 2004 data for parameter 81102 in state 04
+Successfully retrieved 7158 rows
+
+Processing Arizona data for year 2005 for PM10
+Fetching 2005 data for parameter 81102 in state 04
+Successfully retrieved 10970 rows
+
+Processing Arizona data for year 2006 for PM10
+Fetching 2006 data for parameter 81102 in state 04
+Successfully retrieved 15884 rows
+
+Processing Arizona data for year 2007 for PM10
+Fetching 2007 data for parameter 81102 in state 04
+Successfully retrieved 17590 rows
+
+Processing Arizona data for year 2008 for PM10
+Fetching 2008 data for parameter 81102 in state 04
+Successfully retrieved 17567 rows
+
+Processing Arizona data for year 2009 for PM10
+Fetching 2009 data for parameter 81102 in state 04
+Successfully retrieved 21054 rows
+
+Processing Arizona data for year 2010 for PM10
+Fetching 2010 data for parameter 81102 in state 04
+Successfully retrieved 22204 rows
+
+Processing Arizona data for year 2011 for PM10
+Fetching 2011 data for parameter 81102 in state 04
+Successfully retrieved 24361 rows
+
+Processing Arizona data for year 2012 for PM10
+Fetching 2012 data for parameter 81102 in state 04
+Successfully retrieved 29592 rows
+
+Processing Arizona data for year 2013 for PM10
+Fetching 2013 data for parameter 81102 in state 04
+Successfully retrieved 33709 rows
+
+Processing Arizona data for year 2014 for PM10
+Fetching 2014 data for parameter 81102 in state 04
+Successfully retrieved 35179 rows
+
+Processing Arizona data for year 2015 for PM10
+Fetching 2015 data for parameter 81102 in state 04
+Successfully retrieved 34741 rows
+
+Processing Arizona data for year 2016 for PM10
+Fetching 2016 data for parameter 81102 in state 04
+Successfully retrieved 35353 rows
+
+Processing Arizona data for year 2017 for PM10
+Fetching 2017 data for parameter 81102 in state 04
+Successfully retrieved 34913 rows
+
+Processing Arizona data for year 2018 for PM10
+Fetching 2018 data for parameter 81102 in state 04
+Successfully retrieved 37746 rows
+
+Processing Arizona data for year 2019 for PM10
+Fetching 2019 data for parameter 81102 in state 04
+Successfully retrieved 37914 rows
+
+Processing Arizona data for year 2020 for PM10
+Fetching 2020 data for parameter 81102 in state 04
+Successfully retrieved 38771 rows
+
+Processing Arizona data for year 2021 for PM10
+Fetching 2021 data for parameter 81102 in state 04
+Successfully retrieved 38667 rows
+
+Processing Arizona data for year 2022 for PM10
+Fetching 2022 data for parameter 81102 in state 04
+Successfully retrieved 38382 rows
+
+Processing Arizona data for year 2023 for PM10
+Fetching 2023 data for parameter 81102 in state 04
+Successfully retrieved 37864 rows
+
+All Arizona PM10 data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for TSP
+Fetching 1993 data for parameter 85101 in state 04
+Successfully retrieved 492 rows
+
+Processing Arizona data for year 1994 for TSP
+Fetching 1994 data for parameter 85101 in state 04
+Successfully retrieved 480 rows
+
+Processing Arizona data for year 1995 for TSP
+Fetching 1995 data for parameter 85101 in state 04
+Successfully retrieved 449 rows
+
+Processing Arizona data for year 1996 for TSP
+Fetching 1996 data for parameter 85101 in state 04
+Successfully retrieved 492 rows
+
+Processing Arizona data for year 1997 for TSP
+Fetching 1997 data for parameter 85101 in state 04
+Successfully retrieved 581 rows
+
+Processing Arizona data for year 1998 for TSP
+Fetching 1998 data for parameter 85101 in state 04
+Successfully retrieved 2296 rows
+
+Processing Arizona data for year 1999 for TSP
+Fetching 1999 data for parameter 85101 in state 04
+Successfully retrieved 2514 rows
+
+Processing Arizona data for year 2000 for TSP
+Fetching 2000 data for parameter 85101 in state 04
+Successfully retrieved 3094 rows
+
+Processing Arizona data for year 2001 for TSP
+Fetching 2001 data for parameter 85101 in state 04
+Successfully retrieved 2422 rows
+
+Processing Arizona data for year 2002 for TSP
+Fetching 2002 data for parameter 85101 in state 04
+Successfully retrieved 2541 rows
+
+Processing Arizona data for year 2003 for TSP
+Fetching 2003 data for parameter 85101 in state 04
+Successfully retrieved 2883 rows
+
+Processing Arizona data for year 2004 for TSP
+Fetching 2004 data for parameter 85101 in state 04
+Successfully retrieved 2950 rows
+
+Processing Arizona data for year 2005 for TSP
+Fetching 2005 data for parameter 85101 in state 04
+Successfully retrieved 2995 rows
+
+Processing Arizona data for year 2006 for TSP
+Fetching 2006 data for parameter 85101 in state 04
+Successfully retrieved 3030 rows
+
+Processing Arizona data for year 2007 for TSP
+Fetching 2007 data for parameter 85101 in state 04
+Successfully retrieved 2988 rows
+
+Processing Arizona data for year 2008 for TSP
+Fetching 2008 data for parameter 85101 in state 04
+Successfully retrieved 2894 rows
+
+Processing Arizona data for year 2009 for TSP
+Fetching 2009 data for parameter 85101 in state 04
+Successfully retrieved 2768 rows
+
+Processing Arizona data for year 2010 for TSP
+Fetching 2010 data for parameter 85101 in state 04
+Successfully retrieved 2670 rows
+
+Processing Arizona data for year 2011 for TSP
+Fetching 2011 data for parameter 85101 in state 04
+Successfully retrieved 2493 rows
+
+Processing Arizona data for year 2012 for TSP
+Fetching 2012 data for parameter 85101 in state 04
+Successfully retrieved 2377 rows
+
+Processing Arizona data for year 2013 for TSP
+Fetching 2013 data for parameter 85101 in state 04
+Successfully retrieved 2121 rows
+
+Processing Arizona data for year 2014 for TSP
+Fetching 2014 data for parameter 85101 in state 04
+Successfully retrieved 1886 rows
+
+Processing Arizona data for year 2015 for TSP
+Fetching 2015 data for parameter 85101 in state 04
+Successfully retrieved 1835 rows
+
+Processing Arizona data for year 2016 for TSP
+Fetching 2016 data for parameter 85101 in state 04
+Successfully retrieved 1692 rows
+
+Processing Arizona data for year 2017 for TSP
+Fetching 2017 data for parameter 85101 in state 04
+Successfully retrieved 1541 rows
+
+Processing Arizona data for year 2018 for TSP
+Fetching 2018 data for parameter 85101 in state 04
+Successfully retrieved 1538 rows
+
+Processing Arizona data for year 2019 for TSP
+Fetching 2019 data for parameter 85101 in state 04
+Successfully retrieved 1520 rows
+
+Processing Arizona data for year 2020 for TSP
+Fetching 2020 data for parameter 85101 in state 04
+Successfully retrieved 1466 rows
+
+Processing Arizona data for year 2021 for TSP
+Fetching 2021 data for parameter 85101 in state 04
+Successfully retrieved 1387 rows
+
+Processing Arizona data for year 2022 for TSP
+Fetching 2022 data for parameter 85101 in state 04
+Successfully retrieved 1432 rows
+
+Processing Arizona data for year 2023 for TSP
+Fetching 2023 data for parameter 85101 in state 04
+Successfully retrieved 1465 rows
+
+All Arizona TSP data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for PM2.5_nonref
+Fetching 1993 data for parameter 88502 in state 04
+Successfully retrieved 526 rows
+
+Processing Arizona data for year 1994 for PM2.5_nonref
+Fetching 1994 data for parameter 88502 in state 04
+Successfully retrieved 484 rows
+
+Processing Arizona data for year 1995 for PM2.5_nonref
+Fetching 1995 data for parameter 88502 in state 04
+Successfully retrieved 456 rows
+
+Processing Arizona data for year 1996 for PM2.5_nonref
+Fetching 1996 data for parameter 88502 in state 04
+Successfully retrieved 444 rows
+
+Processing Arizona data for year 1997 for PM2.5_nonref
+Fetching 1997 data for parameter 88502 in state 04
+Successfully retrieved 469 rows
+
+Processing Arizona data for year 1998 for PM2.5_nonref
+Fetching 1998 data for parameter 88502 in state 04
+Successfully retrieved 516 rows
+
+Processing Arizona data for year 1999 for PM2.5_nonref
+Fetching 1999 data for parameter 88502 in state 04
+Successfully retrieved 464 rows
+
+Processing Arizona data for year 2000 for PM2.5_nonref
+Fetching 2000 data for parameter 88502 in state 04
+Successfully retrieved 977 rows
+
+Processing Arizona data for year 2001 for PM2.5_nonref
+Fetching 2001 data for parameter 88502 in state 04
+Successfully retrieved 1385 rows
+
+Processing Arizona data for year 2002 for PM2.5_nonref
+Fetching 2002 data for parameter 88502 in state 04
+Successfully retrieved 1661 rows
+
+Processing Arizona data for year 2003 for PM2.5_nonref
+Fetching 2003 data for parameter 88502 in state 04
+Successfully retrieved 1959 rows
+
+Processing Arizona data for year 2004 for PM2.5_nonref
+Fetching 2004 data for parameter 88502 in state 04
+Successfully retrieved 2187 rows
+
+Processing Arizona data for year 2005 for PM2.5_nonref
+Fetching 2005 data for parameter 88502 in state 04
+Successfully retrieved 2467 rows
+
+Processing Arizona data for year 2006 for PM2.5_nonref
+Fetching 2006 data for parameter 88502 in state 04
+Successfully retrieved 2282 rows
+
+Processing Arizona data for year 2007 for PM2.5_nonref
+Fetching 2007 data for parameter 88502 in state 04
+Successfully retrieved 2135 rows
+
+Processing Arizona data for year 2008 for PM2.5_nonref
+Fetching 2008 data for parameter 88502 in state 04
+Successfully retrieved 2135 rows
+
+Processing Arizona data for year 2009 for PM2.5_nonref
+Fetching 2009 data for parameter 88502 in state 04
+Successfully retrieved 2108 rows
+
+Processing Arizona data for year 2010 for PM2.5_nonref
+Fetching 2010 data for parameter 88502 in state 04
+Successfully retrieved 2095 rows
+
+Processing Arizona data for year 2011 for PM2.5_nonref
+Fetching 2011 data for parameter 88502 in state 04
+Successfully retrieved 2063 rows
+
+Processing Arizona data for year 2012 for PM2.5_nonref
+Fetching 2012 data for parameter 88502 in state 04
+Successfully retrieved 2219 rows
+
+Processing Arizona data for year 2013 for PM2.5_nonref
+Fetching 2013 data for parameter 88502 in state 04
+Successfully retrieved 2081 rows
+
+Processing Arizona data for year 2014 for PM2.5_nonref
+Fetching 2014 data for parameter 88502 in state 04
+Successfully retrieved 1997 rows
+
+Processing Arizona data for year 2015 for PM2.5_nonref
+Fetching 2015 data for parameter 88502 in state 04
+Successfully retrieved 1895 rows
+
+Processing Arizona data for year 2016 for PM2.5_nonref
+Fetching 2016 data for parameter 88502 in state 04
+Successfully retrieved 1744 rows
+
+Processing Arizona data for year 2017 for PM2.5_nonref
+Fetching 2017 data for parameter 88502 in state 04
+Successfully retrieved 1655 rows
+
+Processing Arizona data for year 2018 for PM2.5_nonref
+Fetching 2018 data for parameter 88502 in state 04
+Successfully retrieved 4470 rows
+
+Processing Arizona data for year 2019 for PM2.5_nonref
+Fetching 2019 data for parameter 88502 in state 04
+Successfully retrieved 5017 rows
+
+Processing Arizona data for year 2020 for PM2.5_nonref
+Fetching 2020 data for parameter 88502 in state 04
+Successfully retrieved 4995 rows
+
+Processing Arizona data for year 2021 for PM2.5_nonref
+Fetching 2021 data for parameter 88502 in state 04
+Successfully retrieved 4979 rows
+
+Processing Arizona data for year 2022 for PM2.5_nonref
+Fetching 2022 data for parameter 88502 in state 04
+Successfully retrieved 4887 rows
+
+Processing Arizona data for year 2023 for PM2.5_nonref
+Fetching 2023 data for parameter 88502 in state 04
+Successfully retrieved 4285 rows
+
+All Arizona PM2.5_nonref data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for PM10-2.5
+Fetching 1993 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1994 for PM10-2.5
+Fetching 1994 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1995 for PM10-2.5
+Fetching 1995 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1996 for PM10-2.5
+Fetching 1996 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1997 for PM10-2.5
+Fetching 1997 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1998 for PM10-2.5
+Fetching 1998 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1999 for PM10-2.5
+Fetching 1999 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2000 for PM10-2.5
+Fetching 2000 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2001 for PM10-2.5
+Fetching 2001 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2002 for PM10-2.5
+Fetching 2002 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2003 for PM10-2.5
+Fetching 2003 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2004 for PM10-2.5
+Fetching 2004 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2005 for PM10-2.5
+Fetching 2005 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2006 for PM10-2.5
+Fetching 2006 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2007 for PM10-2.5
+Fetching 2007 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2008 for PM10-2.5
+Fetching 2008 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2009 for PM10-2.5
+Fetching 2009 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2010 for PM10-2.5
+Fetching 2010 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2011 for PM10-2.5
+Fetching 2011 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2012 for PM10-2.5
+Fetching 2012 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2013 for PM10-2.5
+Fetching 2013 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2014 for PM10-2.5
+Fetching 2014 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2015 for PM10-2.5
+Fetching 2015 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2016 for PM10-2.5
+Fetching 2016 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2017 for PM10-2.5
+Fetching 2017 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2018 for PM10-2.5
+Fetching 2018 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2019 for PM10-2.5
+Fetching 2019 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2020 for PM10-2.5
+Fetching 2020 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2021 for PM10-2.5
+Fetching 2021 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2022 for PM10-2.5
+Fetching 2022 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 2023 for PM10-2.5
+Fetching 2023 data for parameter 81104 in state 04
+Error: No data matched your selection
+
+Processing Arizona data for year 1993 for Ozone
+Fetching 1993 data for parameter 44201 in state 04
+Successfully retrieved 29322 rows
+
+Processing Arizona data for year 1994 for Ozone
+Fetching 1994 data for parameter 44201 in state 04
+Successfully retrieved 26679 rows
+
+Processing Arizona data for year 1995 for Ozone
+Fetching 1995 data for parameter 44201 in state 04
+Successfully retrieved 26406 rows
+
+Processing Arizona data for year 1996 for Ozone
+Fetching 1996 data for parameter 44201 in state 04
+Successfully retrieved 25717 rows
+
+Processing Arizona data for year 1997 for Ozone
+Fetching 1997 data for parameter 44201 in state 04
+Successfully retrieved 38454 rows
+
+Processing Arizona data for year 1998 for Ozone
+Fetching 1998 data for parameter 44201 in state 04
+Successfully retrieved 39645 rows
+
+Processing Arizona data for year 1999 for Ozone
+Fetching 1999 data for parameter 44201 in state 04
+Successfully retrieved 39406 rows
+
+Processing Arizona data for year 2000 for Ozone
+Fetching 2000 data for parameter 44201 in state 04
+Successfully retrieved 35962 rows
+
+Processing Arizona data for year 2001 for Ozone
+Fetching 2001 data for parameter 44201 in state 04
+Successfully retrieved 38446 rows
+
+Processing Arizona data for year 2002 for Ozone
+Fetching 2002 data for parameter 44201 in state 04
+Successfully retrieved 42418 rows
+
+Processing Arizona data for year 2003 for Ozone
+Fetching 2003 data for parameter 44201 in state 04
+Successfully retrieved 47272 rows
+
+Processing Arizona data for year 2004 for Ozone
+Fetching 2004 data for parameter 44201 in state 04
+Successfully retrieved 49081 rows
+
+Processing Arizona data for year 2005 for Ozone
+Fetching 2005 data for parameter 44201 in state 04
+Successfully retrieved 51694 rows
+
+Processing Arizona data for year 2006 for Ozone
+Fetching 2006 data for parameter 44201 in state 04
+Successfully retrieved 54618 rows
+
+Processing Arizona data for year 2007 for Ozone
+Fetching 2007 data for parameter 44201 in state 04
+Successfully retrieved 55228 rows
+
+Processing Arizona data for year 2008 for Ozone
+Fetching 2008 data for parameter 44201 in state 04
+Successfully retrieved 56539 rows
+
+Processing Arizona data for year 2009 for Ozone
+Fetching 2009 data for parameter 44201 in state 04
+Successfully retrieved 56128 rows
+
+Processing Arizona data for year 2010 for Ozone
+Fetching 2010 data for parameter 44201 in state 04
+Successfully retrieved 57288 rows
+
+Processing Arizona data for year 2011 for Ozone
+Fetching 2011 data for parameter 44201 in state 04
+Successfully retrieved 58065 rows
+
+Processing Arizona data for year 2012 for Ozone
+Fetching 2012 data for parameter 44201 in state 04
+Successfully retrieved 58791 rows
+
+Processing Arizona data for year 2013 for Ozone
+Fetching 2013 data for parameter 44201 in state 04
+Successfully retrieved 60389 rows
+
+Processing Arizona data for year 2014 for Ozone
+Fetching 2014 data for parameter 44201 in state 04
+Successfully retrieved 60400 rows
+
+Processing Arizona data for year 2015 for Ozone
+Fetching 2015 data for parameter 44201 in state 04
+Successfully retrieved 61242 rows
+
+Processing Arizona data for year 2016 for Ozone
+Fetching 2016 data for parameter 44201 in state 04
+Successfully retrieved 66252 rows
+
+Processing Arizona data for year 2017 for Ozone
+Fetching 2017 data for parameter 44201 in state 04
+Successfully retrieved 65492 rows
+
+Processing Arizona data for year 2018 for Ozone
+Fetching 2018 data for parameter 44201 in state 04
+Successfully retrieved 65697 rows
+
+Processing Arizona data for year 2019 for Ozone
+Fetching 2019 data for parameter 44201 in state 04
+Successfully retrieved 63958 rows
+
+Processing Arizona data for year 2020 for Ozone
+Fetching 2020 data for parameter 44201 in state 04
+Successfully retrieved 65234 rows
+
+Processing Arizona data for year 2021 for Ozone
+Fetching 2021 data for parameter 44201 in state 04
+Successfully retrieved 66277 rows
+
+Processing Arizona data for year 2022 for Ozone
+Fetching 2022 data for parameter 44201 in state 04
+Successfully retrieved 64496 rows
+
+Processing Arizona data for year 2023 for Ozone
+Fetching 2023 data for parameter 44201 in state 04
+Successfully retrieved 64775 rows
+
+All Arizona Ozone data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for SO2
+Fetching 1993 data for parameter 42401 in state 04
+Successfully retrieved 4426 rows
+
+Processing Arizona data for year 1994 for SO2
+Fetching 1994 data for parameter 42401 in state 04
+Successfully retrieved 2556 rows
+
+Processing Arizona data for year 1995 for SO2
+Fetching 1995 data for parameter 42401 in state 04
+Successfully retrieved 4486 rows
+
+Processing Arizona data for year 1996 for SO2
+Fetching 1996 data for parameter 42401 in state 04
+Successfully retrieved 4459 rows
+
+Processing Arizona data for year 1997 for SO2
+Fetching 1997 data for parameter 42401 in state 04
+Successfully retrieved 7426 rows
+
+Processing Arizona data for year 1998 for SO2
+Fetching 1998 data for parameter 42401 in state 04
+Successfully retrieved 8852 rows
+
+Processing Arizona data for year 1999 for SO2
+Fetching 1999 data for parameter 42401 in state 04
+Successfully retrieved 8414 rows
+
+Processing Arizona data for year 2000 for SO2
+Fetching 2000 data for parameter 42401 in state 04
+Successfully retrieved 6992 rows
+
+Processing Arizona data for year 2001 for SO2
+Fetching 2001 data for parameter 42401 in state 04
+Successfully retrieved 7200 rows
+
+Processing Arizona data for year 2002 for SO2
+Fetching 2002 data for parameter 42401 in state 04
+Successfully retrieved 8309 rows
+
+Processing Arizona data for year 2003 for SO2
+Fetching 2003 data for parameter 42401 in state 04
+Successfully retrieved 8694 rows
+
+Processing Arizona data for year 2004 for SO2
+Fetching 2004 data for parameter 42401 in state 04
+Successfully retrieved 8594 rows
+
+Processing Arizona data for year 2005 for SO2
+Fetching 2005 data for parameter 42401 in state 04
+Successfully retrieved 9945 rows
+
+Processing Arizona data for year 2006 for SO2
+Fetching 2006 data for parameter 42401 in state 04
+Successfully retrieved 11414 rows
+
+Processing Arizona data for year 2007 for SO2
+Fetching 2007 data for parameter 42401 in state 04
+Successfully retrieved 10260 rows
+
+Processing Arizona data for year 2008 for SO2
+Fetching 2008 data for parameter 42401 in state 04
+Successfully retrieved 8581 rows
+
+Processing Arizona data for year 2009 for SO2
+Fetching 2009 data for parameter 42401 in state 04
+Successfully retrieved 8688 rows
+
+Processing Arizona data for year 2010 for SO2
+Fetching 2010 data for parameter 42401 in state 04
+Successfully retrieved 9036 rows
+
+Processing Arizona data for year 2011 for SO2
+Fetching 2011 data for parameter 42401 in state 04
+Successfully retrieved 8432 rows
+
+Processing Arizona data for year 2012 for SO2
+Fetching 2012 data for parameter 42401 in state 04
+Successfully retrieved 9113 rows
+
+Processing Arizona data for year 2013 for SO2
+Fetching 2013 data for parameter 42401 in state 04
+Successfully retrieved 11377 rows
+
+Processing Arizona data for year 2014 for SO2
+Fetching 2014 data for parameter 42401 in state 04
+Successfully retrieved 12911 rows
+
+Processing Arizona data for year 2015 for SO2
+Fetching 2015 data for parameter 42401 in state 04
+Successfully retrieved 13360 rows
+
+Processing Arizona data for year 2016 for SO2
+Fetching 2016 data for parameter 42401 in state 04
+Successfully retrieved 11890 rows
+
+Processing Arizona data for year 2017 for SO2
+Fetching 2017 data for parameter 42401 in state 04
+Successfully retrieved 12333 rows
+
+Processing Arizona data for year 2018 for SO2
+Fetching 2018 data for parameter 42401 in state 04
+Successfully retrieved 11721 rows
+
+Processing Arizona data for year 2019 for SO2
+Fetching 2019 data for parameter 42401 in state 04
+Successfully retrieved 12015 rows
+
+Processing Arizona data for year 2020 for SO2
+Fetching 2020 data for parameter 42401 in state 04
+Successfully retrieved 11973 rows
+
+Processing Arizona data for year 2021 for SO2
+Fetching 2021 data for parameter 42401 in state 04
+Successfully retrieved 11895 rows
+
+Processing Arizona data for year 2022 for SO2
+Fetching 2022 data for parameter 42401 in state 04
+Successfully retrieved 11887 rows
+
+Processing Arizona data for year 2023 for SO2
+Fetching 2023 data for parameter 42401 in state 04
+Successfully retrieved 11917 rows
+
+All Arizona SO2 data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for CO
+Fetching 1993 data for parameter 42101 in state 04
+Successfully retrieved 11316 rows
+
+Processing Arizona data for year 1994 for CO
+Fetching 1994 data for parameter 42101 in state 04
+Successfully retrieved 9928 rows
+
+Processing Arizona data for year 1995 for CO
+Fetching 1995 data for parameter 42101 in state 04
+Successfully retrieved 9586 rows
+
+Processing Arizona data for year 1996 for CO
+Fetching 1996 data for parameter 42101 in state 04
+Successfully retrieved 9128 rows
+
+Processing Arizona data for year 1997 for CO
+Fetching 1997 data for parameter 42101 in state 04
+Successfully retrieved 11277 rows
+
+Processing Arizona data for year 1998 for CO
+Fetching 1998 data for parameter 42101 in state 04
+Successfully retrieved 12016 rows
+
+Processing Arizona data for year 1999 for CO
+Fetching 1999 data for parameter 42101 in state 04
+Successfully retrieved 11346 rows
+
+Processing Arizona data for year 2000 for CO
+Fetching 2000 data for parameter 42101 in state 04
+Successfully retrieved 11073 rows
+
+Processing Arizona data for year 2001 for CO
+Fetching 2001 data for parameter 42101 in state 04
+Successfully retrieved 11346 rows
+
+Processing Arizona data for year 2002 for CO
+Fetching 2002 data for parameter 42101 in state 04
+Successfully retrieved 11153 rows
+
+Processing Arizona data for year 2003 for CO
+Fetching 2003 data for parameter 42101 in state 04
+Successfully retrieved 10899 rows
+
+Processing Arizona data for year 2004 for CO
+Fetching 2004 data for parameter 42101 in state 04
+Successfully retrieved 11220 rows
+
+Processing Arizona data for year 2005 for CO
+Fetching 2005 data for parameter 42101 in state 04
+Successfully retrieved 11192 rows
+
+Processing Arizona data for year 2006 for CO
+Fetching 2006 data for parameter 42101 in state 04
+Successfully retrieved 11841 rows
+
+Processing Arizona data for year 2007 for CO
+Fetching 2007 data for parameter 42101 in state 04
+Successfully retrieved 11200 rows
+
+Processing Arizona data for year 2008 for CO
+Fetching 2008 data for parameter 42101 in state 04
+Successfully retrieved 11050 rows
+
+Processing Arizona data for year 2009 for CO
+Fetching 2009 data for parameter 42101 in state 04
+Successfully retrieved 10689 rows
+
+Processing Arizona data for year 2010 for CO
+Fetching 2010 data for parameter 42101 in state 04
+Successfully retrieved 9961 rows
+
+Processing Arizona data for year 2011 for CO
+Fetching 2011 data for parameter 42101 in state 04
+Successfully retrieved 9293 rows
+
+Processing Arizona data for year 2012 for CO
+Fetching 2012 data for parameter 42101 in state 04
+Successfully retrieved 9336 rows
+
+Processing Arizona data for year 2013 for CO
+Fetching 2013 data for parameter 42101 in state 04
+Successfully retrieved 9576 rows
+
+Processing Arizona data for year 2014 for CO
+Fetching 2014 data for parameter 42101 in state 04
+Successfully retrieved 10183 rows
+
+Processing Arizona data for year 2015 for CO
+Fetching 2015 data for parameter 42101 in state 04
+Successfully retrieved 10462 rows
+
+Processing Arizona data for year 2016 for CO
+Fetching 2016 data for parameter 42101 in state 04
+Successfully retrieved 8883 rows
+
+Processing Arizona data for year 2017 for CO
+Fetching 2017 data for parameter 42101 in state 04
+Successfully retrieved 9155 rows
+
+Processing Arizona data for year 2018 for CO
+Fetching 2018 data for parameter 42101 in state 04
+Successfully retrieved 8198 rows
+
+Processing Arizona data for year 2019 for CO
+Fetching 2019 data for parameter 42101 in state 04
+Successfully retrieved 7100 rows
+
+Processing Arizona data for year 2020 for CO
+Fetching 2020 data for parameter 42101 in state 04
+Successfully retrieved 7217 rows
+
+Processing Arizona data for year 2021 for CO
+Fetching 2021 data for parameter 42101 in state 04
+Successfully retrieved 7227 rows
+
+Processing Arizona data for year 2022 for CO
+Fetching 2022 data for parameter 42101 in state 04
+Successfully retrieved 7562 rows
+
+Processing Arizona data for year 2023 for CO
+Fetching 2023 data for parameter 42101 in state 04
+Successfully retrieved 7263 rows
+
+All Arizona CO data from 1993 to 2023 has been saved!
+
+Processing Arizona data for year 1993 for NO2
+Fetching 1993 data for parameter 42602 in state 04
+Successfully retrieved 1872 rows
+
+Processing Arizona data for year 1994 for NO2
+Fetching 1994 data for parameter 42602 in state 04
+Successfully retrieved 1850 rows
+
+Processing Arizona data for year 1995 for NO2
+Fetching 1995 data for parameter 42602 in state 04
+Successfully retrieved 4016 rows
+
+Processing Arizona data for year 1996 for NO2
+Fetching 1996 data for parameter 42602 in state 04
+Successfully retrieved 3502 rows
+
+Processing Arizona data for year 1997 for NO2
+Fetching 1997 data for parameter 42602 in state 04
+Successfully retrieved 2692 rows
+
+Processing Arizona data for year 1998 for NO2
+Fetching 1998 data for parameter 42602 in state 04
+Successfully retrieved 4046 rows
+
+Processing Arizona data for year 1999 for NO2
+Fetching 1999 data for parameter 42602 in state 04
+Successfully retrieved 6366 rows
+
+Processing Arizona data for year 2000 for NO2
+Fetching 2000 data for parameter 42602 in state 04
+Successfully retrieved 6034 rows
+
+Processing Arizona data for year 2001 for NO2
+Fetching 2001 data for parameter 42602 in state 04
+Successfully retrieved 6338 rows
+
+Processing Arizona data for year 2002 for NO2
+Fetching 2002 data for parameter 42602 in state 04
+Successfully retrieved 6236 rows
+
+Processing Arizona data for year 2003 for NO2
+Fetching 2003 data for parameter 42602 in state 04
+Successfully retrieved 5726 rows
+
+Processing Arizona data for year 2004 for NO2
+Fetching 2004 data for parameter 42602 in state 04
+Successfully retrieved 7054 rows
+
+Processing Arizona data for year 2005 for NO2
+Fetching 2005 data for parameter 42602 in state 04
+Successfully retrieved 7882 rows
+
+Processing Arizona data for year 2006 for NO2
+Fetching 2006 data for parameter 42602 in state 04
+Successfully retrieved 8192 rows
+
+Processing Arizona data for year 2007 for NO2
+Fetching 2007 data for parameter 42602 in state 04
+Successfully retrieved 5938 rows
+
+Processing Arizona data for year 2008 for NO2
+Fetching 2008 data for parameter 42602 in state 04
+Successfully retrieved 5730 rows
+
+Processing Arizona data for year 2009 for NO2
+Fetching 2009 data for parameter 42602 in state 04
+Successfully retrieved 5792 rows
+
+Processing Arizona data for year 2010 for NO2
+Fetching 2010 data for parameter 42602 in state 04
+Successfully retrieved 5682 rows
+
+Processing Arizona data for year 2011 for NO2
+Fetching 2011 data for parameter 42602 in state 04
+Successfully retrieved 5428 rows
+
+Processing Arizona data for year 2012 for NO2
+Fetching 2012 data for parameter 42602 in state 04
+Successfully retrieved 4956 rows
+
+Processing Arizona data for year 2013 for NO2
+Fetching 2013 data for parameter 42602 in state 04
+Successfully retrieved 5010 rows
+
+Processing Arizona data for year 2014 for NO2
+Fetching 2014 data for parameter 42602 in state 04
+Successfully retrieved 5992 rows
+
+Processing Arizona data for year 2015 for NO2
+Fetching 2015 data for parameter 42602 in state 04
+Successfully retrieved 6690 rows
+
+Processing Arizona data for year 2016 for NO2
+Fetching 2016 data for parameter 42602 in state 04
+Successfully retrieved 6518 rows
+
+Processing Arizona data for year 2017 for NO2
+Fetching 2017 data for parameter 42602 in state 04
+Successfully retrieved 5686 rows
+
+Processing Arizona data for year 2018 for NO2
+Fetching 2018 data for parameter 42602 in state 04
+Successfully retrieved 5832 rows
+
+Processing Arizona data for year 2019 for NO2
+Fetching 2019 data for parameter 42602 in state 04
+Successfully retrieved 5676 rows
+
+Processing Arizona data for year 2020 for NO2
+Fetching 2020 data for parameter 42602 in state 04
+Successfully retrieved 5088 rows
+
+Processing Arizona data for year 2021 for NO2
+Fetching 2021 data for parameter 42602 in state 04
+Successfully retrieved 5676 rows
+
+Processing Arizona data for year 2022 for NO2
+Fetching 2022 data for parameter 42602 in state 04
+Successfully retrieved 6146 rows
+
+Processing Arizona data for year 2023 for NO2
+Fetching 2023 data for parameter 42602 in state 04
+Successfully retrieved 6290 rows
+
+All Arizona NO2 data from 1993 to 2023 has been saved!
+
+All data collection completed!

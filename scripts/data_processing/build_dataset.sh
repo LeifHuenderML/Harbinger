@@ -41,4 +41,8 @@ echo "Completed reformat_cali_pop_estimates.py"
 # python3 combine_cali_cmmet_and_cases.py
 # echo "Completed combine_cali_cmmet_and_cases.py"
 
+echo "Starting reformat_cali_pesticides_dataset.py.py..."
+python3 reformat_cali_pesticides_dataset.py.py
+echo "Completed reformat_cali_pesticides_dataset.py.py"
+
 echo "All scripts completed!"
