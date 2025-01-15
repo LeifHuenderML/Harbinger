@@ -224,9 +224,18 @@ December 8 - January 8
     42602 - NO2 (Nitrogen Dioxide) - Reddish-brown gas mainly from vehicles and power plants, causes respiratory problems and contributes to smog formation.
 - saved them into 2 datasets one for california from 2000 - 2022 and one for arizona from 1993-2023 where each dataset is the individual pollutant
 
+January 14- 21
+- sent mary the info on pricing of the publication
+- filtered through and began the cleaning phase of all the air quality data
+- updated the data processing readme with the cleaning pesticides information
+- updated the data processing readme with the collecting aqs data information
+- updated the data processing readme with the cleaning aqs data information
+- realized i accidentally did not save the work i did on processing the pesticide data so i will have to redo that 
+- made a notebook for analyzing general information for all of the processed data that we are working with in the visualizations directory.
+- started looking into ways tht we can visualize this data
+
 
 todo 
-- send mary that funding info 
 - change the build scripts so that there is a x dataset and y dataset
 - run a correlation matrix onf the pesticide
 - did the full training for the irb investigators and student researchers

@@ -33,9 +33,27 @@ This script processes the population esimates from the same years that match up 
 ../../data/raw/population_2000_2010(2).xlsx
 It first removes all the artifacts from the xlsx file that it was loaded in from. I then does a transformation so that  there is a year column and then each column is the values of the population estimates for that given year. The three datasets are concatenated into one large dataset containiong the years 2000 - 2023. This final dataset is saved to ../../data/processed/California_Population_2000-2023.csv
 
-## python3 combine_cali_cm_and_met.py
+## combine_cali_cm_and_met.py
 This script is going to be depreciated because the way that we plan on using the data has changed
 
-## python3 combine_cali_cmmet_and_cases.py
+## combine_cali_cmmet_and_cases.py
 This script is going to be depreciated because the way that we plan on using the data has changed
 
+## reformat_cali_pesticides_dataset.py
+i need to fix this one
+
+## collect_aqs_data.py
+This is a script that I wrote to collect all the data from the aqs api 
+it gathers the following:
+    88101 - PM2.5 (Fine Particulate Matter) - Microscopic particles that can enter deep into lungs and bloodstream, coming from smoke, vehicle emissions, and industrial sources.
+    81102 - PM10 (Particulate Matter) - Larger inhalable particles including dust, pollen, and mold. Less dangerous than PM2.5 but still harmful to respiratory health.
+    85101 - TSP (Total Suspended Particles) - All airborne particles of any size, giving a general measure of air cleanliness.
+    88502 - PM2.5_nonref (Non-reference PM2.5) - Same as PM2.5 but measured using non-reference methods (typically continuous monitors).
+    44201 - Ozone (O₃) - Ground-level air pollutant formed by chemical reactions between sunlight and other pollutants, major component of smog.
+    42401 - SO2 (Sulfur Dioxide) - Sharp-smelling gas from burning fossil fuels, especially coal and oil. Major contributor to acid rain.
+    42101 - CO (Carbon Monoxide) - Silent killer: odorless, colorless gas from incomplete combustion that prevents oxygen absorption in blood.
+    42602 - NO2 (Nitrogen Dioxide) - Reddish-brown gas mainly from vehicles and power plants, causes respiratory problems and contributes to smog formation.
+It gathers this data from 2000-2022 for california and 1993-2023 for arizona to be in line with our cocci data. It gathers each pollutant for all the years of that pollutant into a data set and then saves it to the raw data directory. For instance it will gather a dataset lke PM2.5 from 2000-2022 for california and save that as a dataset.
+
+## reformat_az_ca_aqs_data.py
+This script takes the data collected from aqs for both california and arizona and it removes the unneeded columns from this list ['state_code', 'county_code', 'site_number', 'parameter_code', 'cbsa_code', 'cbsa', 'date_of_last_change']. These columns do not contribute any usefull information to our research. Then it goes through the saving process, it saves each df with the removed colunmns and then it also saves one that concatenates all the pollutants for arizona, california, and the combination of the two.

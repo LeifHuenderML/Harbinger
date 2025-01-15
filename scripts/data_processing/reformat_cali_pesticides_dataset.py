@@ -1,24 +1,40 @@
 import pandas as pd
+from IPython.display import display
+import os
 
-#read ca_pesticides
-ca_pesticides = pd.read_csv("../../data/raw/davis_pesticides_2001-22.csv")
-# sort by county month value 
-ca_pesticides = ca_pesticides.sort_values(by=['YEAR', 'MONTH', 'COUNTY', 'CHEMNAME']).reset_index(drop=True)
-# fix naming convention
-ca_pesticides = ca_pesticides.rename(columns=lambda x: x.title().strip())
+def display_info(df, title):
+    print(f"\n{title} Info")
+    print("="*50 +"\n" + "="*50)
+    display(df.info())
+    print(f"\n{title} Head")
+    print("="*50 +"\n" + "="*50)
+    display(df.head())
+    print(f"\n{title} Tail")
+    print("="*50 +"\n" + "="*50)
+    display(df.tail())
 
-# Pivot the DataFrame
-pivoted_ca_pesticides = ca_pesticides.pivot_table(
-    index=['Year', 'Month', 'County'],  # These will identify unique rows
-    columns='Chemname',                 # Each chemical becomes a column
-    values=['Lbs_Chm_Used', 'Area_Planted', 'Applications'],  # Values to spread across new chemical columns
-    fill_value=0  # Fill NaN values with 0
-).reset_index()
+    
+# Read the data
+df = pd.read_csv("../../data/raw/davis_pesticides_2001-22.csv")
+df = df.reset_index(drop=True)
+df['CHEMNAME'] = df['CHEMNAME'].astype('string')
+df['COUNTY'] = df['COUNTY'].astype('string')
 
-# Flatten the multi-level column names
-pivoted_ca_pesticides.columns = [f'{col[0]}_{col[1]}' if col[1] else col[0] for col in pivoted_ca_pesticides.columns]
+df.to_csv("pesticides.csv", index=False)
 
-ca_pesticides = pivoted_ca_pesticides.copy()
+df = pd.read_csv("pesticides.csv")
 
-ca_pesticides.to_csv("../../data/processed/cali_pesticides_2001-2022.csv", index=False)
-ca_pesticides.head()
+os.remove("pesticides.csv")
+
+df = df.sort_values(by=['YEAR', 'MONTH', 'COUNTY', 'CHEMNAME'], 
+                          ascending=[True, True, True, True])
+
+df.columns = df.columns.str.lower()
+
+df = df.reset_index(drop=True)
+
+df['county'] = df['county'].str.title()
+
+df['date'] = pd.to_datetime(dict(year=df['year'], month=df['month'], day=1))
+
+df.to_csv("../../data/processed/california_pesticides_2001-2022.csv", index=False)
