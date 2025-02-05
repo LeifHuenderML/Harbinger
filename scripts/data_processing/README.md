@@ -1,59 +1,50 @@
 # Data Processing Documentation
 
-The data processing directory handles the incorporation of all the datasets gathered for harbinger. The high level script labelled "build_dataset.sh" is a script that runs the python commands to go through and preprocess and assemble the final datasets that we are training our models on. Below I will go over the entire overview of what each build script does. 
+The data processing directory contains all datasets collected for the Harbinger project. A high-level script called "build_dataset.sh" executes Python commands to preprocess and assemble the final datasets used for model training. This document provides an overview of each build script's function.
 
-The dataset consists of the input dataset and the output dataset ie x y dataset. The data that goes into constituding x is sequential time based data that covers both arizona and california on a daily basis it includes meteorological data, Smoke particaulate matter, generall air particulate. pesticide usage, and population estimates. the data that was gathered covered a different resolution of timeline, so for any data that was gathered in which the resolution was higher than daily we collected the mean for the day. for any data where the resoluation was lower than daily we would duplicate out to create it into daily.
+The dataset is split into input (X) and output (Y) components. The input data is sequential time-series data covering both Arizona and California on a daily basis. It includes meteorological data, smoke particulate matter, general air particulates, pesticide usage, and population estimates. The raw data was collected at varying time resolutions. For data collected at higher-than-daily resolution, we calculated the daily mean. For data collected at lower-than-daily resolution, we duplicated values to create daily entries.
 
 ## reformat_arizona_cm_dataset.py
-reformat_arizona_cm_dataset.py as in the name reformats the arizona cocci (cm) dataset. It loads the raw data gathered provided to us from "". The raw data is from the "data/raw/Event Date by Calendar MonthYear (1994-2023).xlsx" directory. It starts by relabelling all the colunmns to the proper names. Since it was loaded as a .xlsx file there was artifacts in the first 2 and last row that is not data. This is removed from the dataset. We then add a year column that aligns whith when the data was gathered. We handle any missing values by replacing them with NaN values. The original data had each year on a seperate sheet so all the actions above happen in a loop going over each year. After this we go through and combine all the sheets to form one dataset. All the case numbers get cast to integers. Finally we convert the year and month col to datetime and then save the newly created dataset to "data/processed/arizona_cm_combined_data.csv".
+This script reformats the Arizona cocci (Coccidioidomycosis) dataset from the Arizona Department of Health Services. The raw data is located in "data/raw/Event Date by Calendar MonthYear (1994-2023).xlsx". The script first relabels all columns to match our naming conventions. The Excel file contains non-data artifacts in the first two rows and last row, which are removed from the dataset. A year column is added to align with the data collection period. Missing values are replaced with NaN values. Since the original data separates each year into individual sheets, these processing steps run in a loop over each year. After processing, all sheets are combined into a single dataset. All case numbers are converted to integers. The script then converts the year and month columns to datetime format and saves the processed dataset to "data/processed/arizona_cm_combined_data.csv".
 
 ## reformat_arizona_met_dataset.py
-This script takes the raw meteorological data gathered from OpenWeatherAPI, this data is from the 15 counties in arizona and covers all the time between 1979-2024 in the location "data/raw/06d609e5e744bedd55f76ad24b015bae.csv". We go through and rename all the columns labels and the columns to match our naming conventions. We drop the columns that do not serve a purpose for us. Namely Datetime which is just a code we allready have the actual date, weather main and weather icon which are just more descriptors for the weather which is allready captured in other columns. Timezone this is irrelevant. and weather id which is another variation off of the weather descriptors that we have. 
-We then convert the date column to the datetime format and save a newly created. We then need to aggregate the samples so that is is not captured hourly but the daily average by capturing the mean. Finally we remove the years that our output data does not match to ie the output data only ranges from 1994-2023. we save this newly created dataset to "data/processed/Arizona_Weather_Data_Daily_Updates_1994_to_2023.csv"
+This script processes raw meteorological data from OpenWeatherAPI for the 15 counties in Arizona, spanning from 1979-2024. The data is located at "data/raw/06d609e5e744bedd55f76ad24b015bae.csv". The script renames all column labels to match our naming conventions. Several columns are dropped as they do not provide additional value: Datetime (redundant code of the actual date), weather main and weather icon (weather descriptors already captured in other columns), timezone (irrelevant), and weather id (another variation of existing weather descriptors).
+
+The date column is converted to datetime format. The script then aggregates hourly samples into daily averages by calculating the mean. The final step removes years outside our output data range (1994-2023). The processed dataset is saved to "data/processed/Arizona_Weather_Data_Daily_Updates_1994_to_2023.csv".
 
 ## reformat_arizona_pop_estimates.py
-This script takes the raw data provided by "" located in the  "data/raw/arizona-pop-est-1980to2023.xlsx" directory. It grabs all the samples that contian the total population estimates for that year. Relabells the dataset to mathc our naming conventions then saves it to the file path "data/processed/arizona_pop_est_1980-2023.csv"
-
-## combine_arizona_cm_and_met.py
-This script is going to be depreciated because the way that we plan on using the data has changed
-
-## combine_arizona_cmmet_and_rates.py
-This script is going to be depreciated because the way that we plan on using the data has changed
+This script processes raw data from the Arizona Office of Economic Opportunity, located at "data/raw/arizona-pop-est-1980to2023.xlsx". The script extracts all samples containing total population estimates for each year. The dataset is then relabeled to match our naming conventions and saved to "data/processed/arizona_pop_est_1980-2023.csv".
 
 ## reformat_cali_cm_dataset.py
-This script reformats the cocci dataset provided to us from the california department of public health. it loads the raw data in from "data/raw/Cocci Case Counts by County and Month, 2001-2022.xlsx". it then relabells the columns to pe in the proper formatting. The original data was provided to us in .xlsx formatting so we needed to remove artifacts from it to make it into a  csv. We spli the year month column into 2 seperaate ones, and then converde it int oa datetime formatted column. Finallly we replce any missing values with NaA values and save the newly formatted dataset to "data/processed/Cali_Monthly_Cases.csv" 
+This script reformats the cocci dataset from the California Department of Public Health. It loads raw data from "data/raw/Cocci Case Counts by County and Month, 2001-2022.xlsx". The script relabels columns to match proper formatting. Since the original data was provided in .xlsx format, artifacts are removed during conversion to CSV. The year-month column is split into two separate columns, then converted into a datetime formatted column. Missing values are replaced with NaN values, and the formatted dataset is saved to "data/processed/Cali_Monthly_Cases.csv".
 
 ## reformat_cali_met_dataset.py
-This script reformats the meterological data provided to us from OpenWeatherAPI. the raw data covers the 48 counties in california with the highest number of case counts.  the timeline of the raw data spans from 1979 to 2024 and is on an hourly updated basis. we start by loading the raw data from "data/raw/open_weather_california.csv", all the same changes are made to this as the reformat_arizona_pop_estimates.py from above. The only difference is that the cocci case data is from a different timeline than the arizona coccis data so we slim the met datas timeline down to being from 2001-2021, and save it to "data/processed/California_Weather_Data_Daily_Updates_2001_to_2022.csv"
+This script reformats meteorological data from OpenWeatherAPI for the 48 California counties with the highest cocci case counts. The raw data spans from 1979 to 2024 with hourly updates. The script loads data from "data/raw/open_weather_california.csv" and applies the same processing steps as reformat_arizona_met_dataset.py. The only difference is the timeline - while Arizona's cocci data spans 1994-2023, California's spans 2001-2021. The script adjusts the meteorological data to match this period and saves it to "data/processed/California_Weather_Data_Daily_Updates_2001_to_2022.csv".
 
 ## reformat_cali_pop_estimates.py
-This script processes the population esimates from the same years that match up with the california cocci dataset. This data was gathered from "". The raw data is from 3 seperate files under the raw folder :
-../../data/raw/co-est2019-annres-06.xlsx
-../../data/raw/co-est2023-pop-06.xlsx
-../../data/raw/population_2000_2010(2).xlsx
-It first removes all the artifacts from the xlsx file that it was loaded in from. I then does a transformation so that  there is a year column and then each column is the values of the population estimates for that given year. The three datasets are concatenated into one large dataset containiong the years 2000 - 2023. This final dataset is saved to ../../data/processed/California_Population_2000-2023.csv
+This script processes population estimates that align with the California cocci dataset timeline. The data comes from the US Census Bureau across three raw files:
 
-## combine_cali_cm_and_met.py
-This script is going to be depreciated because the way that we plan on using the data has changed
+- ../../data/raw/co-est2019-annres-06.xlsx
+- ../../data/raw/co-est2023-pop-06.xlsx
+- ../../data/raw/population_2000_2010(2).xlsx
 
-## combine_cali_cmmet_and_cases.py
-This script is going to be depreciated because the way that we plan on using the data has changed
+The script first removes artifacts from the Excel files. It then transforms the data to create a year column, with additional columns containing population estimates for each year. The three datasets are concatenated into a single dataset covering 2000-2023. The final dataset is saved to ../../data/processed/California_Population_2000-2023.csv.
 
 ## reformat_cali_pesticides_dataset.py
-i need to fix this one
+This script processes California pesticide data from the California Department of Pesticide Regulation, covering 2001-2022 across all California counties. The script reads data from ../../data/raw/davis_pesticides_2001-22.csv and converts the chemname and county columns to string data types. Due to a bug likely related to CSV formatting issues in pandas, the script saves and rereads the CSV using pandas to resolve these issues. The columns are then sorted by year, month, county, and chemname. All column labels are converted to lowercase to match naming conventions. The script resets the index and creates a datetime column from the month and year columns.
 
 ## collect_aqs_data.py
-This is a script that I wrote to collect all the data from the aqs api 
-it gathers the following:
-    88101 - PM2.5 (Fine Particulate Matter) - Microscopic particles that can enter deep into lungs and bloodstream, coming from smoke, vehicle emissions, and industrial sources.
-    81102 - PM10 (Particulate Matter) - Larger inhalable particles including dust, pollen, and mold. Less dangerous than PM2.5 but still harmful to respiratory health.
-    85101 - TSP (Total Suspended Particles) - All airborne particles of any size, giving a general measure of air cleanliness.
-    88502 - PM2.5_nonref (Non-reference PM2.5) - Same as PM2.5 but measured using non-reference methods (typically continuous monitors).
-    44201 - Ozone (O₃) - Ground-level air pollutant formed by chemical reactions between sunlight and other pollutants, major component of smog.
-    42401 - SO2 (Sulfur Dioxide) - Sharp-smelling gas from burning fossil fuels, especially coal and oil. Major contributor to acid rain.
-    42101 - CO (Carbon Monoxide) - Silent killer: odorless, colorless gas from incomplete combustion that prevents oxygen absorption in blood.
-    42602 - NO2 (Nitrogen Dioxide) - Reddish-brown gas mainly from vehicles and power plants, causes respiratory problems and contributes to smog formation.
-It gathers this data from 2000-2022 for california and 1993-2023 for arizona to be in line with our cocci data. It gathers each pollutant for all the years of that pollutant into a data set and then saves it to the raw data directory. For instance it will gather a dataset lke PM2.5 from 2000-2022 for california and save that as a dataset.
+This script collects data from the AQS API provided by the US Environmental Protection Agency. It gathers the following pollutants:
+- 88101 - PM2.5 (Fine Particulate Matter) - Microscopic particles that enter deep into lungs and bloodstream, from smoke, vehicle emissions, and industrial sources
+- 81102 - PM10 (Particulate Matter) - Larger inhalable particles including dust, pollen, and mold. Less harmful than PM2.5 but still affects respiratory health
+- 85101 - TSP (Total Suspended Particles) - All airborne particles of any size, measuring general air cleanliness
+- 88502 - PM2.5_nonref (Non-reference PM2.5) - Same as PM2.5 but measured using non-reference methods, typically continuous monitors
+- 44201 - Ozone (O₃) - Ground-level air pollutant formed by chemical reactions between sunlight and other pollutants, a major part of smog
+- 42401 - SO2 (Sulfur Dioxide) - Sharp-smelling gas from burning fossil fuels, particularly coal and oil, contributing to acid rain
+- 42101 - CO (Carbon Monoxide) - Odorless, colorless gas from incomplete combustion that blocks oxygen absorption in blood
+- 42602 - NO2 (Nitrogen Dioxide) - Reddish-brown gas from vehicles and power plants, causing respiratory problems and contributing to smog
+
+The script collects data from 2000-2022 for California and 1993-2023 for Arizona to match our cocci data timeline. For each pollutant, it creates a separate dataset covering its full time range and saves it to the raw data directory. For example, it creates a dataset for PM2.5 spanning 2000-2022 for California.
 
 ## reformat_az_ca_aqs_data.py
-This script takes the data collected from aqs for both california and arizona and it removes the unneeded columns from this list ['state_code', 'county_code', 'site_number', 'parameter_code', 'cbsa_code', 'cbsa', 'date_of_last_change']. These columns do not contribute any usefull information to our research. Then it goes through the saving process, it saves each df with the removed colunmns and then it also saves one that concatenates all the pollutants for arizona, california, and the combination of the two.
+This script processes the AQS data collected for both California and Arizona. It removes unnecessary columns that don't contribute to our research: 'state_code', 'county_code', 'site_number', 'parameter_code', 'cbsa_code', 'cbsa', and 'date_of_last_change'. The script then saves three versions of the processed data: one with Arizona pollutants, one with California pollutants, and one combining pollutants from both states.

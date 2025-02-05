@@ -233,6 +233,22 @@ January 14- 21
 - realized i accidentally did not save the work i did on processing the pesticide data so i will have to redo that 
 - made a notebook for analyzing general information for all of the processed data that we are working with in the visualizations directory.
 - started looking into ways tht we can visualize this data
+- went through and rewrote the pesticides script
+- added the documentation to the readme file
+- updated the readme with all the proper credits for data sources
+- went through the readme and ran it trhough grammarly to improve readability of it
+- wrote a script that calculates all the missing values percentages
+- created a new directory called data anysis for doing all the data analysis
+- creaded a readme for the data analysis
+- added the intro to the readme
+- added documentation to the calculate data analysis script
+- wrote a script called general_data_analysis_info.py that looks at the dtypes, head and tail of all the datasets and writes the output to [general_info_dataset_analysis](../data/analysis_data/general_info_dataset_analysis_20250115_211020.txt)
+- updated the readme with this new information
+
+
+Januay 22-29
+- wrote a script called run analysis that runs all the data analysis in the order that makes sense
+- 
 
 
 todo 

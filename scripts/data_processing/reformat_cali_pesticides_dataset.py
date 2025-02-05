@@ -1,17 +1,5 @@
 import pandas as pd
-from IPython.display import display
 import os
-
-def display_info(df, title):
-    print(f"\n{title} Info")
-    print("="*50 +"\n" + "="*50)
-    display(df.info())
-    print(f"\n{title} Head")
-    print("="*50 +"\n" + "="*50)
-    display(df.head())
-    print(f"\n{title} Tail")
-    print("="*50 +"\n" + "="*50)
-    display(df.tail())
 
     
 # Read the data
