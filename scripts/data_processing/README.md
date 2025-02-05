@@ -48,3 +48,7 @@ The script collects data from 2000-2022 for California and 1993-2023 for Arizona
 
 ## reformat_az_ca_aqs_data.py
 This script processes the AQS data collected for both California and Arizona. It removes unnecessary columns that don't contribute to our research: 'state_code', 'county_code', 'site_number', 'parameter_code', 'cbsa_code', 'cbsa', and 'date_of_last_change'. The script then saves three versions of the processed data: one with Arizona pollutants, one with California pollutants, and one combining pollutants from both states.
+
+## reformat_all_dates.py
+This script processess all the datasets from above and turns the columns to all lowrer for a better naming convention. It also converts all dfs to have a date col in datetime format
+

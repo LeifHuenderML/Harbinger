@@ -54,6 +54,10 @@ echo "Starting reformat_az_ca_aqs_data.py..."
 python3 reformat_az_ca_aqs_data.py
 echo "Completed reformat_az_ca_aqs_data.py"
 
+echo "Starting reformat_all_dates.py..."
+python3 reformat_all_dates.py
+echo "Completed reformat_all_dates.py"
+
 # echo "Starting ..."
 # python3 
 # echo "Completed "
